@@ -3,12 +3,13 @@ import tweepy
 CONSUMER_TOKEN = '8I0edAMtdTBOQEEUBNf9LbE6c'
 CONSUMER_SECRET = 'MZ4kzlZqMM3t9rvGuT0mE4SHhOwBchpFHKOtGSeVA0I882H9RJ'
 
-class TwitterOAuthTool:
+class TwittTool:
 
     def __init__(self):
         self.auth = None
         self.access_token = '832313658311065601-eLFDkUYxcxTGjeY9VdLVGQXpJU21Q0H'
         self.access_token_secret = '5BJtiPFVtlYrlxyTyKmziOu14B2E9m8gnyLMN4dv4qSZF'
+	self.api = None
 
     def get_authorization_url(self):
         """Generates the authorizarion URL.
@@ -55,21 +56,144 @@ class TwitterOAuthTool:
         api = tweepy.API(auth)
         return api.me()
 
-    def post_status(self, message):
-	api = tweepy.API(self.auth)
-   	api.update_status(status=message)
+    def prepare_api(self):
+	"""Prepares the api to get ready to post and read statuses. Must be done before posting or reading any statuses.
+	"""
+	self.api = tweepy.API(self.auth)
 
-if '__main__' == __name__:
-    tool = TwitterOAuthTool()
-    auth_url = tool.get_authorization_url()
-    print 'Visit the following url in a web-browser & authorize this app to access your twitter account.'
-    print 'Once you are done authorizing, copy the PIN that twitter generates and paste it below.'
-    print '\nURL: %s' %auth_url
-    verifier_code = raw_input('PIN: ')
-    (token, secret) = tool.get_token_and_secret(verifier_code)
-    if (token and secret):
-        me = tool.verify_authorization()
-        print 'User @%s successfully authorized the app.' %me.screen_name
-    else:
-	print 'Failed to get the key and secret for the user.'
-    tool.post_status('Hello Twitter!')
+    def get_api(self):
+	"""Gets the api object for use.
+	"""
+	return self.api
+
+    def post_status(self, message):
+	"""Posts a status based on the previous user authorized. A user must be authorized 
+	prior to using this function.
+	:Parameter:
+		- 'message': The text to be tweeted to the timeline
+	"""
+   	self.api.update_status(status=message)
+
+    def reply_to_tweet(self, status_id, message, metadata):
+	"""Tweets a given message at a specific tweet.
+	:Parameter:
+		-'status_id': The id of the status to reply to.
+		-'message': The text to be tweeted at the user.
+		-'metadata': Includes the tags of any mentions to the tweet.
+	"""
+	self.api.update_status(in_reply_to_status_id = status_id, status = message, auto_populate_reply_metadata = metadata)
+
+    def read_timeline(self, numStatuses):
+	"""Reads the specified number of statuses from the timeline and returns them as strings. 		Processes through the status objects to get text. Returns the statuses as a list.
+	:Parameter:
+		-'numStatues': The number of statuses to retrieve from the timeline.
+	"""
+	statusObjects = self.api.home_timeline(count = numStatuses)
+	return statusObjects
+
+    def read_user_tweets(self, screenName, numStatuses):
+	"""Reads the tweets of a given user. Returns the statuses as a list of Status objects.
+	:Parameter:
+		-'screenName': The @ username of the user to retrieve tweets from.
+		-'numStatuses': The number of statuses to retrieve from the user
+	:Return:
+		-List of status object from the specified user
+	"""
+	return self.api.user_timeline(screen_name = screenName, count = numStatuses)
+    
+    def get_highest_retweet_status(self, numStatuses):
+	"""Finds a list of statuses with the highest retweet amount. Accounts for tweets with the same number of retweets.
+	:Parameter:
+		-'numStatuses': The number of statuses to grab from the account's timeline.
+	:Return:
+		-'{"statuses": statusList, "retweets": numRetweets}': Returns a dictionary containing the list of statuses with the most amount of retweets and that number 			of retweets. (Usually returns just one status)
+	"""
+	statuses = self.api.retweets_of_me(count = numStatuses)
+	highestStatus = statuses[0]
+	for status in statuses:
+		if status.retweet_count > highestStatus.retweet_count:
+			highestStatus = status
+	highestStatusList = [highestStatus]	
+	for status in statuses:
+		if status.retweet_count == highestStatus.retweet_count and status.text != highestStatus.text:
+			highestStatusList.append(status)
+	return {"statuses": highestStatusList, "retweets": highestStatus.retweet_count}
+
+    def get_status_text(self, statusObjects):
+	""" Gets a list of the text from the given statuses.
+	:Parameter:
+		-'statusObjects': A list of statuses to get the text from.
+	"Return:
+		- A list of the text of given statuses
+	"""	
+	text = []
+	for statuses in statusObjects:
+		text.append(statuses.text)
+	return text
+
+    def get_status_inReplyTo(self, status):
+	"""Gets the user that the tweet is in reply to.
+	:Parameter:
+		-'status'- The status object to ge tthe screen name from.
+	:Return:
+		-The screen name of the user that a tweet is in reply to.
+	"""
+	return status.in_reply_to_screen_name
+
+    def get_status_author(self, statusObjects):
+	""" Gets the authors as a User object from each status. 
+	:Parameter:
+		-'statusObjects': The list of statuses to find the author for.
+	:Return:
+		-A user list of all the users who created the tweets.
+	"""
+	authors = []
+	for statuses in statusObjects:
+		authors.append(statuses.author)
+	return authors
+	
+    def get_user_name(self, author):
+	"""Gets the user's name that is present on their twitter profile.
+	:Parameter:
+		-'author': An user object.
+	:Return:
+		- The user's name as a string.
+	"""
+	return author.name
+
+    def get_user_screenName(self, author):
+	"""Gets the user's screen name (the user's @ name).
+	:Parameter:
+		-'author': An user object.
+	:Return:
+		-The user's screen name.
+	"""
+	return author.screen_name
+
+    def get_status_datetime(self, status):
+	"""Gets the time that the status was posted.
+	:Parameter:
+		-'status': The status to find the datetime object of.
+	:Result:
+		-The datetime object of the status.
+	"""
+	return status.created_at
+
+    def get_readable_time(self, dateTime):
+	"""Takes in a time object and returns in as text in a 24 hour clock. 
+	:Parameter:
+		-'dateTime':A datetime object
+	:Return:
+		-The time of day as a readable string.
+	"""
+	return str(dateTime.hour) + ":" + str(dateTime.minute) + ":" + str(dateTime.second)
+
+    def get_readable_date(self, dateTime):
+	"""Takes in a date object and returns in as text in mm/dd/yyyy format. 
+	:Parameter:
+		-'dateTime': A datetime object
+	:Return:
+		-The day of the datetime object
+	"""
+	return str(dateTime.month) + "/" + str(dateTime.day) + "/" + str(dateTime.year)
+

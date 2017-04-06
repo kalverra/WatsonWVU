@@ -35,6 +35,3 @@ def containsInfo(dataString):
 			return True
 	return False
 
-def deleteInfo(dataString):
-	print "hi"
-	

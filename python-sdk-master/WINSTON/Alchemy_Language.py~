@@ -1,0 +1,35 @@
+import json
+from os.path import join, dirname
+from watson_developer_cloud import AlchemyLanguageV1
+
+alchemy_language = AlchemyLanguageV1(api_key='9d64e0467f09d220d4fc29cc503bf0f40ec9b73f')
+
+s = raw_input('Please enter a URL: ')
+
+if(s == 'n'):
+    url = 'https://www.washingtonpost.com/news/worldviews/wp/2017/02/20/trump-asked-people-to-look-at-whats-happening-in-sweden-heres-whats-happening-there/?utm_term=.ad2e46221676'
+else:
+    url = s;
+
+
+#combined_operations = ['title', 'author', 'langauge', 'concept', 'relations',
+#                       'dates', 'taxonomy']
+
+#dates: all relevant dates in the article
+#title: title of article
+#language: language article is written in
+
+
+#print(
+#    json.dumps(alchemy_language.combined(url=url, extract=combined_operations),
+#               indent=2))
+
+j = json.load(json.dumps(alchemy_language.keywords(max_items=6, url=url)))
+
+print(json.dumps(alchemy_language.keywords(max_items=6, url=url), indent=2))
+
+print(j['keywords'][0])
+
+for val in (j['keywords']):
+    for t in (val['text']):
+        print text

@@ -1,12 +1,12 @@
 import csv
 import hashlib
+import StatementComparitor
 
 def addInfo(dataString, dataTruth):
 	csvfile = open('knowledgeBase.csv', 'a+')
 	csvWriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 	if(not containsInfo(dataString)):
-		hashVal = hashlib.md5(dataString.encode())
-		csvWriter.writerow([hashVal.hexdigest(), dataTruth])
+		csvWriter.writerow([dataString, dataTruth])
 		return True
 	return False
 
@@ -31,7 +31,6 @@ def containsInfo(dataString):
 	val = hashVal.hexdigest()
 	for row in csvReader:
 		tableVal = row[0].strip().split(',')[0]
-		if(tableVal == val):
+		if(tableVal == val or StatementComparitor.similarity(tableVal, val, True) > 0.75 or StatementComparitor.similarity(tableVal, val, False)):
 			return True
 	return False
-

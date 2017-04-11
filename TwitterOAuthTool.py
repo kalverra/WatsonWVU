@@ -74,14 +74,32 @@ class TwittTool:
 	"""
    	self.api.update_status(status=message)
 
-    def reply_to_tweet(self, status_id, message, metadata):
+    def reply_to_tweet(self, status_id, message):
 	"""Tweets a given message at a specific tweet.
 	:Parameter:
 		-'status_id': The id of the status to reply to.
 		-'message': The text to be tweeted at the user.
 		-'metadata': Includes the tags of any mentions to the tweet.
 	"""
-	self.api.update_status(in_reply_to_status_id = status_id, status = message, auto_populate_reply_metadata = metadata)
+	self.api.update_status(status = message, in_reply_to_status_id = status_id )
+
+    def get_status_metadata(self, status):
+	"""Gets the metadata of the status provided.
+	:Parameter:
+		-'status': The status to find the metadata of.
+	:Return:
+		-The id number associated with the status.
+	"""
+	return status.id
+
+    def get_status_id(self, status):
+	"""Gets the id of the status provided.
+	:Parameter:
+		-'status': The status to find the id of.
+	:Return:
+		-The id number associated with the status.
+	"""
+	return status.id
 
     def read_timeline(self, numStatuses):
 	"""Reads the specified number of statuses from the timeline and returns them as strings. 		Processes through the status objects to get text. Returns the statuses as a list.

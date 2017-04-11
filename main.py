@@ -15,8 +15,21 @@ if '__main__' == __name__:
 	print 'Failed to get the key and secret for the user.'
     #print 'Input the status that you would like to update!'
     tool.prepare_api()
-    statuses = tool.read_timeline(20)
-    statusText = tool.get_status_text(statuses)
+    prevStatus = ""
+    while(True):
+	#Reading in most recent status
+	statuses = tool.read_timeline(1)
+	author = tool.get_status_author(statuses[0])
+	print author
+	statusText = tool.get_status_text(statuses)
+	if(statusText[0] != prevStatus):
+		#Start analyzing the new status
+		statusId = tool.get_status_id(statuses[0])
+		tool.reply_to_tweet(statusId, "My reply to you goes here I guess.")
+		time.sleep(15)
+	prevStatus = statusText[0]
+"""
+		
     authorList = tool.get_status_author(statuses)
     userRetweetList = tool.get_highest_retweet_status(20)
     for status in userRetweetList['statuses']:
@@ -34,4 +47,5 @@ if '__main__' == __name__:
     #Sprint "Enter a new status to post!"
     #newStatus = raw_input("Status: ")
     #tool.post_status(newStatus)
+"""
     

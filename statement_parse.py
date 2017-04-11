@@ -12,7 +12,7 @@ for statement in statements:
         if subject["subject_slug"] == "economy":
             about_economy = "T"
     csv_writer.writerow([
-        statement["ruling_headline"].encode("ascii", "ignore"),
+       "\""+ statement["ruling_headline"].encode("ascii", "ignore")+"\"",
         statement["ruling"]["ruling"].encode("ascii", "ignore"),
         about_economy
     ])

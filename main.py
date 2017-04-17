@@ -1,4 +1,5 @@
 import TwitterOAuthTool
+import time
 
 if '__main__' == __name__:
     tool = TwitterOAuthTool.TwittTool()
@@ -19,15 +20,21 @@ if '__main__' == __name__:
     while(True):
 	#Reading in most recent status
 	statuses = tool.read_timeline(1)
-	author = tool.get_status_author(statuses[0])
-	print author
-	statusText = tool.get_status_text(statuses)
-	if(statusText[0] != prevStatus):
+	status = statuses.next()
+	author = tool.get_status_author(status)
+	print author.id
+	statusText = tool.get_status_text(status)
+	if(statusText != prevStatus):
 		#Start analyzing the new status
-		statusId = tool.get_status_id(statuses[0])
-		tool.reply_to_tweet(statusId, "My reply to you goes here I guess.")
-		time.sleep(15)
-	prevStatus = statusText[0]
+		statusId = tool.get_status_id(status)
+		print statusText
+		if(author.id != tool.get_me().id):
+			authorScreenName = [tool.get_user_screenName(author)]
+			print authorScreenName
+			tool.reply_to_tweet(statusId, "My reply to you goes here I guess.", authorScreenName)
+	#Twitter rate limit is 15 requests in 15 minutes or 180 requests in 15 minutes. I was breaking it at 15 second intervals.
+	time.sleep(60)
+	prevStatus = statusText
 """
 		
     authorList = tool.get_status_author(statuses)

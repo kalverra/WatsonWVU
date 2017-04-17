@@ -66,6 +66,11 @@ class TwittTool:
 	"""
 	return self.api
 
+    def get_me(self):
+	"""Gets the author object for the authenticated user.
+	"""
+	return self.api.me()
+
     def post_status(self, message):
 	"""Posts a status based on the previous user authorized. A user must be authorized 
 	prior to using this function.
@@ -74,23 +79,18 @@ class TwittTool:
 	"""
    	self.api.update_status(status=message)
 
-    def reply_to_tweet(self, status_id, message):
+    def reply_to_tweet(self, status_id, message, userList):
 	"""Tweets a given message at a specific tweet.
 	:Parameter:
 		-'status_id': The id of the status to reply to.
 		-'message': The text to be tweeted at the user.
-		-'metadata': Includes the tags of any mentions to the tweet.
+		-'userList': The list of user screen names to reply to. Required in order to get the tweet to tweet at a person.
 	"""
-	self.api.update_status(status = message, in_reply_to_status_id = status_id )
-
-    def get_status_metadata(self, status):
-	"""Gets the metadata of the status provided.
-	:Parameter:
-		-'status': The status to find the metadata of.
-	:Return:
-		-The id number associated with the status.
-	"""
-	return status.id
+	atNames = ""
+	for author in userList:
+		atNames = atNames + "@" + author + " "
+	finalMessage = atNames + message
+	self.api.update_status(status = finalMessage, in_reply_to_status_id = status_id )
 
     def get_status_id(self, status):
 	"""Gets the id of the status provided.
@@ -106,7 +106,8 @@ class TwittTool:
 	:Parameter:
 		-'numStatues': The number of statuses to retrieve from the timeline.
 	"""
-	statusObjects = self.api.home_timeline(count = numStatuses)
+	statusObjects = tweepy.Cursor(self.api.home_timeline).items(numStatuses)
+	#self.api.home_timeline(count = numStatuses)
 	return statusObjects
 
     def read_user_tweets(self, screenName, numStatuses):
@@ -137,17 +138,14 @@ class TwittTool:
 			highestStatusList.append(status)
 	return {"statuses": highestStatusList, "retweets": highestStatus.retweet_count}
 
-    def get_status_text(self, statusObjects):
-	""" Gets a list of the text from the given statuses.
+    def get_status_text(self, statusObject):
+	""" Gets the text from a given status.
 	:Parameter:
-		-'statusObjects': A list of statuses to get the text from.
+		-'statusObject': The status object to get the text from.
 	"Return:
-		- A list of the text of given statuses
+		- The text of the given status
 	"""	
-	text = []
-	for statuses in statusObjects:
-		text.append(statuses.text)
-	return text
+	return statusObject.text
 
     def get_status_inReplyTo(self, status):
 	"""Gets the user that the tweet is in reply to.
@@ -158,17 +156,14 @@ class TwittTool:
 	"""
 	return status.in_reply_to_screen_name
 
-    def get_status_author(self, statusObjects):
-	""" Gets the authors as a User object from each status. 
+    def get_status_author(self, statusObject):
+	""" Gets the author as a User object from the status object. 
 	:Parameter:
-		-'statusObjects': The list of statuses to find the author for.
+		-'statusObject': The object for a status to find the author for.
 	:Return:
-		-A user list of all the users who created the tweets.
+		-The user who created the tweet.
 	"""
-	authors = []
-	for statuses in statusObjects:
-		authors.append(statuses.author)
-	return authors
+	return statusObject.author
 	
     def get_user_name(self, author):
 	"""Gets the user's name that is present on their twitter profile.

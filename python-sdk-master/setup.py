@@ -19,7 +19,7 @@ from setuptools.command.test import test as TestCommand
 import os
 import sys
 
-__version__ = '0.23.0'
+__version__ = '0.25.2'
 
 if sys.argv[-1] == 'publish':
     # test server
@@ -64,7 +64,7 @@ setup(name='watson-developer-cloud',
       version=__version__,
       description='Client library to use the IBM Watson Services',
       license='Apache 2.0',
-      install_requires=['requests>=2.0, <3.0', 'pysolr>= 3.3, <4.0'],
+      install_requires=['requests>=2.0, <3.0', 'pysolr>= 3.3, <4.0', 'pyOpenSSL>=16.2.0'],
       tests_require=['responses', 'pytest', 'python_dotenv'],
       cmdclass={'test': PyTest},
       author='Jeffrey Stylos',
@@ -72,6 +72,7 @@ setup(name='watson-developer-cloud',
       long_description=read_md('README.md'),
       url='https://github.com/watson-developer-cloud/python-sdk',
       packages=['watson_developer_cloud'],
+      include_package_data=True,
       keywords='alchemy datanews, language, vision, question and answer' +
                ' tone_analyzer, natural language classifier, retrieve and '
                'rank,' +

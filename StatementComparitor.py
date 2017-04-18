@@ -1,3 +1,5 @@
+#Adapted from https://goo.gl/uixa2T
+
 from __future__ import division
 import nltk
 from nltk.corpus import wordnet as wn

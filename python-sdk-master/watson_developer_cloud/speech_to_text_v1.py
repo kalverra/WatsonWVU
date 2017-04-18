@@ -28,7 +28,6 @@ class SpeechToTextV1(WatsonDeveloperCloudService):
                                              **kwargs)
 
     def recognize(self, audio, content_type, continuous=False, model=None,
-                  customization_id=None,
                   inactivity_timeout=None,
                   keywords=None, keywords_threshold=None,
                   max_alternatives=None,
@@ -47,7 +46,6 @@ class SpeechToTextV1(WatsonDeveloperCloudService):
                   'keywords_threshold': keywords_threshold,
                   'max_alternatives': max_alternatives,
                   'model': model,
-                  'customization_id': customization_id,
                   'word_alternatives_threshold': word_alternatives_threshold,
                   'word_confidence': word_confidence,
                   'timestamps': timestamps,

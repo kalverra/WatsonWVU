@@ -15,7 +15,8 @@ print(json.dumps(
 
 url = "https://www.washingtonpost.com/powerpost/gop-health-care-plan-hangs-in-balance-as-house-leaders-push-for-thursday-floor-vote/2017/03/23/6e8bf05a-0fbd-11e7-9d5a-a83e627dc120_story.html?hpid=hp_hp-top-table-main_obamacare-805a%3Ahomepage%2Fstory&utm_term=.533458f0ccb2"
 
-statement = "Since China joined — that’s another beauty — the WTO in 2001, the U.S. has lost many more than 60,000 factories."
+statement1 = "The unemployment rate is 10%"
+statement2 = "10% is the unemployment rate"
 
 #// One can run multiple anaylsis on a statment using combined operations \\
 
@@ -26,14 +27,17 @@ statement = "Since China joined — that’s another beauty — the WTO in 2001,
 #Gives the top 6 keywords with corresponding ratings in:
 #anger, joy, fear, sadness, disgust \\
 
-#j = json.dumps(alchemy_language.keywords(max_items=6, url=url, emotion = 1), indent=2)
+j = json.dumps(alchemy_language.keywords(max_items=6, text=statement1, language='english'), indent=2)
+print(j)
+
+j = json.dumps(alchemy_language.keywords(max_items=6, text=statement2, language='english'), indent=2)
+print(j)
 
 #// Using the Keyword module with the sentiment analysis turn on. 
 #Gives the top 6 keywords with neutral, negative, and positive types,
 #and corresponding scores \\
 
-j = json.dumps(alchemy_language.keywords(max_items=6, url=url, sentiment = 1), indent=2)
+#j = json.dumps(alchemy_language.keywords(max_items=6, url=url, sentiment = 1), indent=2)
 
-print(j)
 
 

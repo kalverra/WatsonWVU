@@ -63,12 +63,11 @@ class AlchemyLanguageV1(WatsonDeveloperCloudService):
 
     def concepts(self, html=None, text=None, url=None, max_items=8,
                  linked_data=True, show_source_text=False,
-                 language=None, knowledge_graph=False):
+                 language=None):
         params = {'maxRetrieve': max_items,
                   'linkedData': linked_data,
                   'showSourceText': show_source_text,
-                  'language': language,
-                  'knowledgeGreaph': knowledge_graph}
+                  'language': language}
         return self._alchemy_html_request('GetRankedConcepts', html=html,
                                           text=text, url=url, params=params)
 

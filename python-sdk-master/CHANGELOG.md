@@ -1,33 +1,6 @@
 Change Log
 ==========
 
-## Version 0.25.2
-
-_2017-03-21_
-
-* Fixed: Speech to text supports customization_id
-* Fixed: Discovery now can create free instances
-
-## Version 0.25.1
-
-_2017-02-28_
-
-* Fixed: Natural Language Understanding base url
-
-## Version 0.25.0
-
-_2017-02-23_
-
-* Fixed: Natural Language Understanding importing
-* Added: Conversation workspace updating
-
-## Version 0.24.0
-
-_2017-02-21_
-
-* Added: Discovery configuration APIs
-* Added: Tradeoff Analytics find_preferable_options flag
-
 ## Version 0.23.0
 
 _2016-12-21_

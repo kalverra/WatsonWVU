@@ -10,8 +10,6 @@ tradeoff_analytics = TradeoffAnalyticsV1(
 with open(os.path.join(os.path.dirname(__file__),
                        '../resources/problem.json')) as problem_json:
     dilemma = tradeoff_analytics.dilemmas(json.load(problem_json),
-                                          generate_visualization=True,
-                                          find_preferable_options=True)
+                                          generate_visualization=False)
 
 print(json.dumps(dilemma, indent=2))
-

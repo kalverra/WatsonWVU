@@ -22866,5 +22866,2973 @@
             "ruling_slug": "mostly-true"
         },
         "ruling_date": "2009-06-24T09:57:25"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jun/10/barack-obama/obama-says-government-has-so-far-turned-profit-mon/",
+        "statement_date": "2009-06-09",
+        "ruling_headline": "Obama says government has so far turned a profit on money used to stabilize banks",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a statement at the White House",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;In the first round of repayments&quot;&nbsp; from financial institutions that received TARP money, &quot;the government has actually turned a profit.&quot;</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Early returns have paid off",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-06-10T16:05:58"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jun/08/newt-gingrich/stimulus-bill-wont-change-status-sunday-school/",
+        "statement_date": "2009-05-30",
+        "ruling_headline": "Stimulus bill won't change status of Sunday school",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Religion",
+                "subject_slug": "religion"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "an e-mail",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>Inside the stimulus package &quot;is anti-Christian legislation that will stop churches from using public schools for meeting on Sundays, as well as Boy Scouts and student Bible study groups.&quot;</p>\r\n",
+        "speaker": {
+            "last_name": "Gingrich",
+            "first_name": "Newt",
+            "name_slug": "newt-gingrich",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/gingrichcutter.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Sunday schools may proceed as usual",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-pantsonfire.gif",
+            "ruling": "Pants on Fire!",
+            "ruling_slug": "pants-fire"
+        },
+        "ruling_date": "2009-06-08T18:43:58"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jun/08/john-boehner/boehner-claims-biden-said-stimulus-scamming-americ/",
+        "statement_date": "2009-06-08",
+        "ruling_headline": "Boehner claims Biden said the stimulus is scamming the American people",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a press release.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>Says Vice President Joe Biden \"admits that the American people are being scammed\" with the economic stimulus package.</p>",
+        "speaker": {
+            "last_name": "Boehner",
+            "first_name": "John",
+            "name_slug": "john-boehner",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnboehner.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Biden said it, but Boehner overstates it",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2009-06-08T17:10:06"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/may/29/barack-obama/150000-jobs-created-or-saved-maybe/",
+        "statement_date": "2009-05-27",
+        "ruling_headline": "150,000 jobs \"created or saved\"? Maybe. ",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            },
+            {
+                "subject": "Workers",
+                "subject_slug": "workers"
+            }
+        ],
+        "statement_context": "a speech",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>In the 100 days since its passage, the economic stimulus has \"saved or created nearly 150,000 jobs.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "A guess-timate at best",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2009-05-29T16:39:32"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/may/15/mark-sanford/gov-sanford-cites-bloomberg-statistic-us-has-spent/",
+        "statement_date": "2009-04-30",
+        "ruling_headline": "Gov. Sanford cites Bloomberg statistic that the U.S. has \"spent, lent or committed\" nearly $13 trillion to blunt the recession",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a commentary piece",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"Our government has now 'spent, lent, or committed' $12.8 trillion in its attempt to blunt the recession.\"</p>",
+        "speaker": {
+            "last_name": "Sanford",
+            "first_name": "Mark",
+            "name_slug": "mark-sanford",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Mark_Sanford_.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "That's a lot of zeroes",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-05-15T17:54:17"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/apr/09/george-will/columnist-will-correct-initial-tarp-money-did-not-/",
+        "statement_date": "2009-03-24",
+        "ruling_headline": "Columnist Will correct that initial TARP money did not buy toxic assets",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Pundits",
+                "subject_slug": "pundits"
+            }
+        ],
+        "statement_context": "a column published by the Washington Post and other news organizations.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;Congress shoveled $700 billion into the Troubled Assets Relief Program, $325 billion of which has been spent without purchasing any toxic assets.&quot;</p>\r\n",
+        "speaker": {
+            "last_name": "Will",
+            "first_name": "George",
+            "name_slug": "george-will",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/gwill.jpg",
+            "party": {
+                "party_slug": "columnist",
+                "party": "Columnist"
+            }
+        },
+        "ruling_link_text": "Lotsa money, but none for toxic assets",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-04-09T17:49:22"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/apr/01/michele-bachmann/defending-dollar-bachmann-distorts-geithners-comme/",
+        "statement_date": "2009-03-25",
+        "ruling_headline": "In defending U.S. currency, Bachmann distorts Geithner's comments about dollar",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a press release.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [
+            {
+                "last_name": "Geithner",
+                "first_name": "Timothy",
+                "name_slug": "timothy-geithner",
+                "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-timothygeithner.jpg",
+                "party": {
+                    "party_slug": "democrat",
+                    "party": "Democrat"
+                }
+            }
+        ],
+        "statement": "<p>&quot;Secretary Geithner has left the option on the table&quot; of abandoning the dollar for a multinational currency.</p>",
+        "speaker": {
+            "last_name": "Bachmann",
+            "first_name": "Michele",
+            "name_slug": "michele-bachmann",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/Bachmann_mug_1.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Bachmann defends the greenback against an imaginary threat",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2009-04-01T16:09:52"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/23/barack-obama/Warren-Buffett-still-backs-Obama/",
+        "statement_date": "2009-03-22",
+        "ruling_headline": "Billionaire Warren Buffett still backs Obama",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a television interview",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;Warren (Buffett) still does support me.&quot;</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "World's most powerful man touts the support of one of the world's richest",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-03-23T17:15:12"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/23/chris-dodd/Dodd-flip-flop-AIG-bonuses/",
+        "statement_date": "2009-03-19",
+        "ruling_headline": "Dodd flip-flopped on whether he changed amendment on bonuses to AIG and banks ",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a CNN interview.",
+        "statement_type": {
+            "statement_type": "Flip"
+        },
+        "target": [],
+        "statement": "<p>On whether he wrote a provision that allowed AIG to dole out bonuses.</p>",
+        "speaker": {
+            "last_name": "Dodd",
+            "first_name": "Chris",
+            "name_slug": "chris-dodd",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-chrisdodd.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Dodd did a 180 on whether he wrote bonus loophole",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/fom-fullFlop.png",
+            "ruling": "Full Flop",
+            "ruling_slug": "full-flop"
+        },
+        "ruling_date": "2009-03-23T17:04:48"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/20/mike-pence/tens-billions-aig-bailout-went-foreign-comanies/",
+        "statement_date": "2009-03-17",
+        "ruling_headline": "Tens of billions in AIG bailout went to foreign companies",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a TV interview",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;Tens of billions of dollars (from taxpayer-funded bailouts) ... flowed straight through AIG into the coffers of foreign corporations and foreign banks.&quot;</p>\r\n",
+        "speaker": {
+            "last_name": "Pence",
+            "first_name": "Mike",
+            "name_slug": "mike-pence",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/AP_VASH107_CAMPAIGN_2016_PE.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Merci beaucoup, American taxpayer",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-03-20T14:39:35"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/20/national-republican-senatorial-committee/Dodd-failed-to-halt-bailout-bonuses/",
+        "statement_date": "2009-03-18",
+        "ruling_headline": "Dodd failed to halt bailout bonuses, but he did limit future ones",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a fundraising e-mail.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [
+            {
+                "last_name": "Dodd",
+                "first_name": "Chris",
+                "name_slug": "chris-dodd",
+                "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-chrisdodd.jpg",
+                "party": {
+                    "party_slug": "democrat",
+                    "party": "Democrat"
+                }
+            }
+        ],
+        "statement": "<p>&quot;Senator Chris Dodd, chairman of the Senate Banking Committee, placed an amendment in the &lsquo;stimulus&rsquo; bill that allowed for banks bailed out with taxpayer money &mdash; including AIG &mdash; to hand out huge bonuses.&quot;</p>",
+        "speaker": {
+            "last_name": "National Republican Senatorial Committee",
+            "first_name": "",
+            "name_slug": "national-republican-senatorial-committee",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Logo_NRC_Elephant_.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Actually, his amendment limited them.",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2009-03-20T13:14:52"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/18/elijah-cummings/AIG-retention-bonuses-employees-plans-to-terminate/",
+        "statement_date": "2009-03-16",
+        "ruling_headline": "AIG retention bonuses going to employees it plans to terminate",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "in a TV interview",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>AIG &quot;said they were giving $57 million (in retention payments) to people who were being terminated.&quot;</p>",
+        "speaker": {
+            "last_name": "Cummings",
+            "first_name": "Elijah",
+            "name_slug": "elijah-cummings",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Cummings.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "AIG: Here's some money to stay; until we tell you to go",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-03-18T17:27:19"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/18/ron-wyden/aig-bonus-wyden-snowe/",
+        "statement_date": "2009-03-17",
+        "ruling_headline": "Wyden and Snowe wanted AIG bonus money back",
+        "subject": [
+            {
+                "subject": "Corporations",
+                "subject_slug": "corporations"
+            },
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "an interview on The Rachel Maddow Show",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"We had bipartisan legislation that got through the Senate\" that would have prevented bonuses like AIG's \"and then somehow mysteriously disappeared.\"</p>",
+        "speaker": {
+            "last_name": "Wyden",
+            "first_name": "Ron",
+            "name_slug": "ron-wyden",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Wyden__.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Bonus clawback lost in the mists of Congress",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2009-03-18T16:52:29"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/17/christina-romer/yes-take-prediction-grain-salt/",
+        "statement_date": "2009-03-15",
+        "ruling_headline": "Yes, but take this prediction with a grain of salt",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "an interview on Meet the Press.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;Last week the Blue Chip Economic Indicators came out that surveys lots of private forecasters. Almost all of them are predicting a turnaround in the third quarter and positive growth in the fourth quarter.&quot;</p>",
+        "speaker": {
+            "last_name": "Romer",
+            "first_name": "Christina",
+            "name_slug": "christina-romer",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Christina_Romer.JPG",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Obama's economic guru sees the recession ending this year",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-03-17T18:36:04"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/mar/06/joe-biden/biden-points-out-disparities-between-ceo-and-avera/",
+        "statement_date": "2009-03-05",
+        "ruling_headline": "Biden points out disparities between CEO and average worker pay",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a speech in Miami Beach, Fla.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;The average CEO makes $10,000 more every day ... than what the average worker makes every year.&quot;</p>",
+        "speaker": {
+            "last_name": "Biden",
+            "first_name": "Joe",
+            "name_slug": "joe-biden",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-joebiden.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Only \"literally\" true with qualifiers",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2009-03-06T16:28:14"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/24/bobby-jindal/jindal-unemployment-measure-stimulus/",
+        "statement_date": "2009-02-22",
+        "ruling_headline": "Jindal says unemployment measures in stimulus will cost the state money",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            },
+            {
+                "subject": "Taxes",
+                "subject_slug": "taxes"
+            }
+        ],
+        "statement_context": "an interview on \"Meet the Press.\"",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>Louisiana is turning down $100 million \"that would require  us to change our unemployment law, that would have actually raised taxes on  Louisiana businesses.\"</p>",
+        "speaker": {
+            "last_name": "Jindal",
+            "first_name": "Bobby",
+            "name_slug": "bobby-jindal",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/Bobby_Jindal.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Not \"actually.\" More like \"potentially.\"",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2009-02-24T18:24:52"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/13/jim-demint/demint-stimulus-prayer-dorms-religion/",
+        "statement_date": "2009-02-05",
+        "ruling_headline": "DeMint says stimulus plan would bar students from having prayer meetings in dorms",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Education",
+                "subject_slug": "education"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a speech on the Senate floor.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>There is a provision in the economic stimulus plan that means that \"students cannot meet together in their dorms, if that dorm has been repaired with this federal money, and have a prayer group or a Bible study.\"</p>",
+        "speaker": {
+            "last_name": "DeMint",
+            "first_name": "Jim",
+            "name_slug": "jim-demint",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Jim_DeMint.JPG",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Not unless the Supreme Court changes its mind",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2009-02-13T15:41:43"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/10/michael-steele/steele-government-never-created-job-opposite/",
+        "statement_date": "2009-01-31",
+        "ruling_headline": "Steele says government has never created a job. We conclude the opposite.",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a speech to House Republicans",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"You and I know that in the history of mankind and womankind, government &mdash; federal, state, local, or otherwise &mdash; has never created one job.\"</p>",
+        "speaker": {
+            "last_name": "Steele",
+            "first_name": "Michael",
+            "name_slug": "michael-steele",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Michael_Steele_cropped.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Tell that to teachers, postal workers ...",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-pantsonfire.gif",
+            "ruling": "Pants on Fire!",
+            "ruling_slug": "pants-fire"
+        },
+        "ruling_date": "2009-02-10T16:27:48"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/09/pat-roberts/choices-CBO-numbers-2009-2010/",
+        "statement_date": "2009-02-05",
+        "ruling_headline": "Many choices for CBO numbers for 2009 and 2010",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "remarks made in the Senate",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>The Congressional Budget Office \"estimates that only 15 percent of this stimulus package will be spent in 2009\" and only 37 percent in 2010.</p>",
+        "speaker": {
+            "last_name": "Roberts",
+            "first_name": "Pat",
+            "name_slug": "pat-roberts",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Pat_Roberts_2.JPG",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "The Senate's version moves money faster",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2009-02-09T16:21:50"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/09/barack-obama/some-republican-attacks-relatively-small-others-no/",
+        "statement_date": "2009-02-03",
+        "ruling_headline": "Obama says Republicans are quibbling over less than 1 percent of the stimulus plan",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "interview with CBS News",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>On attacks by Republicans that various programs in the economic stimulus plan are not stimulative, \"If you add all that stuff up, it accounts for less than 1 percent of the overall package.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Some gripes are small, some are big",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2009-02-09T13:45:43"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/05/fred-smith/fedex-chair-delivers-perspective-bonuses/",
+        "statement_date": "2009-02-05",
+        "ruling_headline": "FedEx chair delivers perspective on bonuses",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "appearance on ABC's This Week",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;The average bonus [on Wall Street] is about $100,000...The bonuses on Wall Street are down 44 percent.&quot;</p>",
+        "speaker": {
+            "last_name": "Smith",
+            "first_name": "Fred",
+            "name_slug": "fred-smith",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/smith.jpg",
+            "party": {
+                "party_slug": "none",
+                "party": "None"
+            }
+        },
+        "ruling_link_text": "He's off just a little",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2009-02-05T20:55:29"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/04/mike-pence/stimulus-has-money-help-fish-roaders/",
+        "statement_date": "2009-02-03",
+        "ruling_headline": "Stimulus has money to help fish, off-roaders",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Federal Budget",
+                "subject_slug": "federal-budget"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a speech",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p>The stimulus bill contains &quot;$20 million for the removal of small to medium-sized fish passage barriers&quot; and &quot;$25 million to rehabilitate off-roading trails for ATVs.&quot;</p>\r\n",
+        "speaker": {
+            "last_name": "Pence",
+            "first_name": "Mike",
+            "name_slug": "mike-pence",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/AP_VASH107_CAMPAIGN_2016_PE.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "He's right on these",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-02-04T18:28:13"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/04/robert-gibbs/stimulus-bill-includes-projects-some-consider-earm/",
+        "statement_date": "2009-02-02",
+        "ruling_headline": "Stimulus bill includes projects that some consider earmarks",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a comment at the daily White House press briefing.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"There are no earmarks\" in the stimulus bill.</p>",
+        "speaker": {
+            "last_name": "Gibbs",
+            "first_name": "Robert",
+            "name_slug": "robert-gibbs",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Gibbs_square.JPG",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "They look like earmarks to us ",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2009-02-04T15:47:43"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/03/mitch-mcconnell/stimulus-plan-more-million-day-jesus-christ-was-bo/",
+        "statement_date": "2009-02-01",
+        "ruling_headline": "Stimulus plan comes to more than a million bucks a day since Jesus Christ was born",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "appearance on CBS's \"Face the Nation\"",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p><br /> To give the proposed economic stimulus plan some perspective, \"if you started the day Jesus Christ was born and spent $1 million every day since then, you still wouldn&rsquo;t have spent $1 trillion.\"</p>",
+        "speaker": {
+            "last_name": "McConnell",
+            "first_name": "Mitch",
+            "name_slug": "mitch-mcconnell",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/mcconnell.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "That's a lot of loaves and fishes",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-02-03T16:17:25"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/feb/02/john-boehner/theory-acorn-could-compete-some-home-rebuilding-mo/",
+        "statement_date": "2009-01-26",
+        "ruling_headline": "In theory, ACORN could compete for some home rebuilding money in stimulus plan",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a news release",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>&quot;The (economic stimulus) legislation could open billions of taxpayer dollars to left-wing groups like the Association of Community Organizations for Reform Now (ACORN).&quot;</p>",
+        "speaker": {
+            "last_name": "Boehner",
+            "first_name": "John",
+            "name_slug": "john-boehner",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnboehner.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "In theory, ACORN could compete for a piece of the nut",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2009-02-02T17:57:52"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/30/barack-obama/some-economists-disagree-obama/",
+        "statement_date": "2009-01-09",
+        "ruling_headline": "Some economists disagree with Obama",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a news conference",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"There is no disagreement that we need action by our government, a recovery plan that will help to jump-start the economy.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Yes, there is",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2009-01-30T17:29:01"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/29/national-republican-congressional-committee/std-spending-economic-stimulus-plan/",
+        "statement_date": "2009-01-28",
+        "ruling_headline": "STD spending is in the economic stimulus plan",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a news release",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"The House Democrats' so-called 'stimulus' has been stuffed with an astonishing $335 million to fund prevention programs of sexually transmitted diseases.\"</p>",
+        "speaker": {
+            "last_name": "National Republican Congressional Committee",
+            "first_name": "",
+            "name_slug": "national-republican-congressional-committee",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/Logo_NRC_Elephant.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "STDs? The bill's got it",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2009-01-29T16:20:37"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/27/eric-cantor/cantor-says-more-stimulus-washinton-grass-small-bu/",
+        "statement_date": "2009-01-23",
+        "ruling_headline": "Cantor says more in stimulus for Washington grass than small businesses",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "an interview on the Fox News Channel.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"For every dollar (in the stimulus package) that is spent to help small businesses, $4 is being spent to help upkeep the grass on the lawns of Washington.\"</p>",
+        "speaker": {
+            "last_name": "Cantor",
+            "first_name": "Eric",
+            "name_slug": "eric-cantor",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/AP_DCSA133_DEBT_SHOWDOWN.JPG",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "That'd be quite an expensive lawn guy",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2009-01-27T18:15:45"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/26/eric-cantor/does-stimulus-package-really-include-300000-sculpt/",
+        "statement_date": "2009-01-23",
+        "ruling_headline": "Does the stimulus package really include $300,000 for a sculpture garden?",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "an interview on the Fox News Channel.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>The stimulus bill includes \"$300,000 for a sculpture garden in Miami.\"</p>",
+        "speaker": {
+            "last_name": "Cantor",
+            "first_name": "Eric",
+            "name_slug": "eric-cantor",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/AP_DCSA133_DEBT_SHOWDOWN.JPG",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Chiseling the truth",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-pantsonfire.gif",
+            "ruling": "Pants on Fire!",
+            "ruling_slug": "pants-fire"
+        },
+        "ruling_date": "2009-01-26T19:32:44"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/26/barack-obama/obama-numbers-income-explanation/",
+        "statement_date": "2009-01-24",
+        "ruling_headline": "Obama's numbers on lost income require explanation",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "in a weekly YouTube and radio address",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"Our economy could fall $1 trillion short of its full capacity, which translates into more than $12,000 in lost income for a family of four.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "His average covers too much ground",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2009-01-26T17:27:27"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/26/joe-barton/Congress-getting-little-review-of-stimulus-bill/",
+        "statement_date": "2009-01-22",
+        "ruling_headline": "Barton correct that Congress getting little review of economic stimulus package",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "a statement at a committee meeting.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [
+            {
+                "last_name": "Barton",
+                "first_name": "Joe",
+                "name_slug": "joe-barton",
+                "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-joebarton.jpg",
+                "party": {
+                    "party_slug": "republican",
+                    "party": "Republican"
+                }
+            }
+        ],
+        "statement": "<p>Democrats have said that \"even one hearing (on the stimulus bill) would be one too many, and that we have a single day to approve these five complex propositions that will affect the lives of millions.\"</p>",
+        "speaker": {
+            "last_name": "Barton",
+            "first_name": "Joe",
+            "name_slug": "joe-barton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-joebarton.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Hundreds of billions of dollars, little review by Congress",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-01-26T15:35:16"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/22/eric-cantor/Cantor-distorts-CBO-data/",
+        "statement_date": "2009-01-21",
+        "ruling_headline": "Cantor distorts CBO data on stimulus package",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "an interview on the Fox News Channel.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>Says a Congressional Budget Office report on spending by House Democrats in the economic stimulus concluded it \"is just not stimulus. It won't help the economy grow.\"</p>",
+        "speaker": {
+            "last_name": "Cantor",
+            "first_name": "Eric",
+            "name_slug": "eric-cantor",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/AP_DCSA133_DEBT_SHOWDOWN.JPG",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "CBO makes no such claim",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2009-01-22T20:21:41"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2009/jan/16/competitive-enterprise-institute/geithners-second-crack-squaring-taxes/",
+        "statement_date": "2009-01-14",
+        "ruling_headline": "Geithner's second crack at squaring taxes",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a news release",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [
+            {
+                "last_name": "Geithner",
+                "first_name": "Timothy",
+                "name_slug": "timothy-geithner",
+                "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-timothygeithner.jpg",
+                "party": {
+                    "party_slug": "democrat",
+                    "party": "Democrat"
+                }
+            }
+        ],
+        "statement": "<p>&quot;Geithner still didn't correct the same type of error for some years, even after the Internal Revenue Service flagged him for the failure to pay the taxes in other years.&quot;</p>",
+        "speaker": {
+            "last_name": "Competitive Enterprise Institute",
+            "first_name": "",
+            "name_slug": "competitive-enterprise-institute",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-cei.jpg",
+            "party": {
+                "party_slug": "none",
+                "party": "None"
+            }
+        },
+        "ruling_link_text": "Geithner settles up on old tax bill ",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2009-01-16T13:53:15"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/29/barack-obama/21-bottles-of-deregulation-on-the-wall/",
+        "statement_date": "2008-10-29",
+        "ruling_headline": "21 bottles of deregulation on the wall",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "North Carolina",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p align=\"left\">McCain called for less regulation&nbsp;21 times just this year.</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "21 bottles of deregulation on the wall",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2008-10-29T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/14/barack-obama/beating-a-retreat-on-a-lavish-retreat/",
+        "statement_date": "2008-10-09",
+        "ruling_headline": "Beating a retreat on a lavish retreat",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Cincinnati, Ohio",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"AIG executives ... (took) a junket for over $400,000. Twice.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Beating a retreat on a lavish retreat",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-10-14T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/13/john-mccain/fannie-and-freddie-contributed-to-wider-problem/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "Fannie and Freddie contributed to wider problem",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>On the economic troubles of 2008, \"really the match that lit this fire was Fannie Mae and Freddie Mac.\"</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Fannie and Freddie contributed to wider problem",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-10-13T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/13/barack-obama/2007-was-too-late-to-head-off-the-crisis/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "2007 was too late to head off the crisis",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a debate in Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"I wrote to Secretary Paulson, I wrote to Federal Reserve Chairman Bernanke [in March 2007], and told them this is something we have to deal with, and nobody did anything about it.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "2007 was too late to head off the crisis",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-10-13T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/13/barack-obama/lax-regulation-contributed-among-other-things/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "Lax regulation contributed, among other things",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>On the economic crisis, \"the biggest problem in this whole process was the deregulation of the financial system.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Lax regulation contributed, among other things",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-10-13T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/13/john-mccain/theres-plenty-of-bipartisan-blame-for-crisis/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "There's plenty of bipartisan blame for crisis",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"The Democrats in the Senate and some members of Congress defended what Fannie and Freddie were doing. They resisted any change.\"</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "There's plenty of bipartisan blame for crisis",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-10-13T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/09/john-mccain/the-idea-is-old-but-the-plan-is-mccains/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "The idea is old, but the plan is McCain's",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>A mortgage buyback plan is \"my proposal, it's not Sen. Obama's proposal, it's not President Bush's proposal.\"</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "The idea is old, but the plan is McCain's",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2008-10-09T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/08/barack-obama/obama-sounded-the-alarm-on-subprimes/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "Obama sounded the alarm on subprimes",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a debate in Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"Two years ago...I wrote to Secretary Paulson, I wrote to Federal Reserve Chairman Bernanke, and told them [subprime lending] is something we have to deal with.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Obama sounded the alarm on subprimes",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-10-08T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/07/john-mccain/ebays-big-but-not-that-big/",
+        "statement_date": "2008-10-07",
+        "ruling_headline": "eBay's big, but not that big",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Nashville, Tenn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"1.3-million people in America make their living off eBay.\"</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "eBay's big, but not that big",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2008-10-07T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/oct/02/joe-biden/biden-more-or-less-right-on-mccains-subprime-surpr/",
+        "statement_date": "2008-10-02",
+        "ruling_headline": "Biden more or less right on McCain's subprime surprise",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "St. Louis",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p>\"John McCain said...in December he was surprised there was a subprime mortgage problem.\"</p>",
+        "speaker": {
+            "last_name": "Biden",
+            "first_name": "Joe",
+            "name_slug": "joe-biden",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-joebiden.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Biden more or less right on McCain's subprime surprise",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2008-10-02T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/30/john-mccain/fannie-freddie-and-john-at-odds-in-2006/",
+        "statement_date": "2008-09-30",
+        "ruling_headline": "Fannie, Freddie and John, at odds in 2006",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "an advertisement",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"John McCain fought to rein in Fannie and Freddie...but Democrats blocked the reforms.\"</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Fannie, Freddie and John, at odds in 2006",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-09-30T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/26/john-mccain/republicans-werent-shut-out/",
+        "statement_date": "2008-09-26",
+        "ruling_headline": "Republicans weren't shut out",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "the first presidential debate in Oxford, Miss.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>House Republicans \"weren't part of the negotiations\" on the Wall Street bailout plan.</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Republicans weren't shut out",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-09-26T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/25/barack-obama/mccain-never-talked-about-the-bill/",
+        "statement_date": "2008-09-24",
+        "ruling_headline": "McCain never talked about the bill",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a speech in Dunedin, Fla.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p>&nbsp;\"I introduced a bill that would&rsquo;ve helped stop the multimillion-dollar bonus packages that CEOs grab on their way out.. (McCain) opposed that idea.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "McCain never talked about the bill",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-09-25T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/19/john-mccain/mccain-neither-endorsed-nor-condemned-the-bailout/",
+        "statement_date": "2008-09-17",
+        "ruling_headline": "McCain neither endorsed nor condemned the bailout",
+        "subject": [
+            {
+                "subject": "Corporations",
+                "subject_slug": "corporations"
+            },
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "",
+        "statement_type": {
+            "statement_type": "Flip"
+        },
+        "target": [],
+        "statement": "<p>On whether the government should bail out insurance giant AIG.</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "McCain neither endorsed nor condemned the bailout",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/fom-halfFlip.png",
+            "ruling": "Half Flip",
+            "ruling_slug": "half-flip"
+        },
+        "ruling_date": "2008-09-19T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/18/barack-obama/congress-didnt-pass-obamas-economic-plan/",
+        "statement_date": "2008-09-16",
+        "ruling_headline": "Congress didn't pass Obama's economic plan",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Stimulus",
+                "subject_slug": "stimulus"
+            }
+        ],
+        "statement_context": "Golden, Colo.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"In January, I outlined a plan to help revive our faltering economy, which formed the basis for a bipartisan stimulus package that passed the Congress.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Congress didn't pass Obama's economic plan",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-09-18T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/17/john-mccain/ringing-an-alarm-not-averting-a-crisis/",
+        "statement_date": "2008-09-16",
+        "ruling_headline": "Ringing an alarm, not averting a crisis",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Housing",
+                "subject_slug": "housing"
+            },
+            {
+                "subject": "Regulation",
+                "subject_slug": "market-regulation"
+            }
+        ],
+        "statement_context": "an interview on CNN's \"American Morning\"",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"I said two years ago that the Fannie and Freddie thing was a very serious problem and we had to work on it.\"</p>",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Ringing an alarm, not averting a crisis",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-09-17T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/17/barack-obama/former-adviser-supported-deregulation/",
+        "statement_date": "2008-09-17",
+        "ruling_headline": "Former adviser supported deregulation",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Elko, Nev.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "McCain economic adviser Phil Gramm is \"the architect of some of the deregulation in Washington that helped cause the mess on Wall Street.\"",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Former adviser supported deregulation",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-09-17T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/16/barack-obama/mccain-said-he-had-confidence-in-paulson/",
+        "statement_date": "2008-09-16",
+        "ruling_headline": "McCain said he had confidence in Paulson",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            },
+            {
+                "subject": "Housing",
+                "subject_slug": "housing"
+            }
+        ],
+        "statement_context": "Golden, Colo.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p>John McCain said last year he didn't know of a solution to the mortgage crisis.</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "McCain said he had confidence in Paulson",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-09-16T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/08/barack-obama/trend-is-right-but-numbers-are-wrong/",
+        "statement_date": "2008-08-28",
+        "ruling_headline": "Trend is right but numbers are wrong",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Denver",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"The average American family\" saw income rise $7,500 under Bill Clinton and decline $2,000 under George Bush.",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Trend is right but numbers are wrong",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-09-08T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/sep/04/john-mccain/obama-talks-often-about-the-global-economy-&mdash-/",
+        "statement_date": "2008-09-04",
+        "ruling_headline": "Obama talks often about the global economy &mdash; but never about wishing it away",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "St. Paul, Minn.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "\"My opponent promises to bring back old jobs by wishing away the global economy.\"",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Obama talks often about the global economy &mdash; but never about wishing it away",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2008-09-04T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/aug/01/barack-obama/obama-cites-ethnicity-in-mortgage-crisis/",
+        "statement_date": "2008-08-01",
+        "ruling_headline": "Obama cites ethnicity in mortgage crisis",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a town hall in St. Petersburg, Fla.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"I have repeatedly said that many of the predatory loans that were made in the mortgage system did target African-American and Latino communities.\"",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Obama cites ethnicity in mortgage crisis",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-08-01T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/jul/25/barack-obama/he-probably-should-have-some-doubt-/",
+        "statement_date": "2008-07-12",
+        "ruling_headline": "He probably should have some doubt ",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a conversation with reporters aboard plane",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"I have little doubt that we've moved into recession at this point.\"",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "He probably should have some doubt ",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-07-25T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/may/22/moveon/hes-rich-but-thats-not-his-housing-fix/",
+        "statement_date": "2008-04-05",
+        "ruling_headline": "He's rich, but that's not his housing fix",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "an e-mail",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "John McCain, \"one of the richest people in a Senate filled with millionaires,\" says the solution to the housing crisis is for people to get a \"second job\" and \"skip their vacations.\"",
+        "speaker": {
+            "last_name": "MoveOn.org",
+            "first_name": "",
+            "name_slug": "moveon",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-moveon.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "He's rich, but that's not his housing fix",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-05-22T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/may/01/hillary-clinton/an-early-voice-on-foreclosures/",
+        "statement_date": "2008-03-24",
+        "ruling_headline": "An early voice on foreclosures",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a speech at the University of Pennsylvania.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"A year ago, in March 2007, I called for immediate action to address abuses in the subprime market, and I laid out detailed concrete proposals for how to do so.\" ",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "An early voice on foreclosures",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-05-01T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/may/01/hillary-clinton/clinton-and-obama-differ-on-freeze/",
+        "statement_date": "2008-04-29",
+        "ruling_headline": "Clinton and Obama differ on freeze",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "in a television ad",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "Hillary Clinton advocates \"a freeze on foreclosures. Barack Obama said no.\"",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Clinton and Obama differ on freeze",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-05-01T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/apr/18/john-mccain/one-major-tax-cut-then-lots-of-raises/",
+        "statement_date": "2008-04-09",
+        "ruling_headline": "One major tax cut, then lots of raises",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "campaign event in Westport, Conn.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "After Reagan took office, \"we didn't raise taxes and we didn't cut entitlements. What we did was we cut taxes.\"",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "One major tax cut, then lots of raises",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-04-18T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/apr/16/barack-obama/not-the-same-old-bush-plan/",
+        "statement_date": "2008-04-14",
+        "ruling_headline": "Not the same old Bush plan",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Associated Press Annual Meeting, Washington D.C.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "\"He's promising four more years of an administration that will push for the privatization of Social Security...\"",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Not the same old Bush plan",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2008-04-16T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/apr/16/barack-obama/income-inequality-is-on-the-rise/",
+        "statement_date": "2008-04-16",
+        "ruling_headline": "Income inequality is on the rise",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Democratic debate in Philadephia",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "The United States is \"seeing greater income inequality now than any time since the 1920s.\"",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Income inequality is on the rise",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-04-16T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/feb/28/barack-obama/certainly-steve-jobs-is/",
+        "statement_date": "2008-02-19",
+        "ruling_headline": "Certainly, Steve Jobs is",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a campaign rally in Houston, Texas",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"When we've got CEOs making more in 10 minutes than ordinary workers are making in a year ... then something is wrong.\"",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Certainly, Steve Jobs is",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2008-02-28T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/feb/26/hillary-clinton/clinton-at-times-forgets-major-caveats/",
+        "statement_date": "2008-01-31",
+        "ruling_headline": "Clinton at times forgets major caveats",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Los Angeles, Calif.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"I want to freeze interest rates for five years.\"",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Clinton at times forgets major caveats",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2008-02-26T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/feb/25/barack-obama/clinton-has-changed-on-nafta/",
+        "statement_date": "2008-02-24",
+        "ruling_headline": "Clinton has changed on NAFTA",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Lorain, Ohio",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p>Clinton said &quot;great things about NAFTA until she started running for president.&quot;</p>\r\n",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Clinton has changed on NAFTA",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-02-25T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/feb/25/barack-obama/she-never-said-boon/",
+        "statement_date": "2008-02-13",
+        "ruling_headline": "She never said \"boon\" ",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a flier sent to voters in Ohio",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "<p>\"Hillary Clinton believed NAFTA was a 'boon' to our economy.\"</p>",
+        "speaker": {
+            "last_name": "Obama",
+            "first_name": "Barack",
+            "name_slug": "barack-obama",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/NYT_OBAMA_1.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "She never said \"boon\" ",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2008-02-25T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/feb/04/mitt-romney/mccain-said-it/",
+        "statement_date": "2008-02-01",
+        "ruling_headline": "McCain said it",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Denver",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "John McCain has said the economy is \"not his strong suit.\"",
+        "speaker": {
+            "last_name": "Romney",
+            "first_name": "Mitt",
+            "name_slug": "mitt-romney",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-mittromney.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "McCain said it",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-02-04T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/jan/30/mitt-romney/americans-consume-a-lot-/",
+        "statement_date": "2008-01-24",
+        "ruling_headline": "Americans consume a lot ",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Boca Raton, Fla.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"Two-thirds of our economy is a consumer economy.\"",
+        "speaker": {
+            "last_name": "Romney",
+            "first_name": "Mitt",
+            "name_slug": "mitt-romney",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-mittromney.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Americans consume a lot ",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-01-30T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/jan/25/bill-clinton/the-1990s-good-times/",
+        "statement_date": "2008-01-25",
+        "ruling_headline": "The 1990s? Good times",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"The 1990s were a time of prosperity. We created more than 22-million new jobs, moved 8-million people out of poverty, and turned our economy around.\"",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Bill",
+            "name_slug": "bill-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-billclinton.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "The 1990s? Good times",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2008-01-25T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2008/jan/24/mike-huckabee/his-recollections-are-way-off/",
+        "statement_date": "2008-01-24",
+        "ruling_headline": "His recollections are way off",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a debate in Boca Raton.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "Says he was the only Republican candidate at a prior debate who said lower-income workers were being hurt by the economy.",
+        "speaker": {
+            "last_name": "Huckabee",
+            "first_name": "Mike",
+            "name_slug": "mike-huckabee",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/Mike_Huckabee.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "His recollections are way off",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlyfalse.png",
+            "ruling": "Mostly False",
+            "ruling_slug": "barely-true"
+        },
+        "ruling_date": "2008-01-24T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/dec/15/hillary-clinton/cant-blame-bush/",
+        "statement_date": "2007-11-19",
+        "ruling_headline": "Can't blame Bush",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Knoxville, Iowa",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"Thanks to President Bush's policies....The income gap is now higher than at any time since the Great Depression.\"\r\n",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Can't blame Bush",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2007-12-15T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/dec/15/hillary-clinton/the-ugly-truths/",
+        "statement_date": "2007-12-05",
+        "ruling_headline": "The ugly truths",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "New York, N.Y.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"Productivity has risen 18 percent ...yet wages have stayed flat... There are 5-million more people in poverty here in our country than there were in 2000.\"",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "The ugly truths",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2007-12-15T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/dec/12/chain-email/hillarys-no-red-menace/",
+        "statement_date": "2007-12-12",
+        "ruling_headline": "Hillary's no red menace",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "An anonymous e-mail says that Hillary Clinton advocates communism. ",
+        "speaker": {
+            "last_name": "Chain email",
+            "first_name": "",
+            "name_slug": "chain-email",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-emailer.jpg",
+            "party": {
+                "party_slug": "none",
+                "party": "None"
+            }
+        },
+        "ruling_link_text": "Hillary's no red menace",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-pantsonfire.gif",
+            "ruling": "Pants on Fire!",
+            "ruling_slug": "pants-fire"
+        },
+        "ruling_date": "2007-12-12T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/nov/13/rudy-giuliani/distorting-the-view/",
+        "statement_date": "2007-10-09",
+        "ruling_headline": "Distorting the view",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Dearborn, Mich.",
+        "statement_type": {
+            "statement_type": "Attack"
+        },
+        "target": [],
+        "statement": "''The leading Democratic candidate once said that the unfettered free market is the most destructive force in modern America.''",
+        "speaker": {
+            "last_name": "Giuliani",
+            "first_name": "Rudy",
+            "name_slug": "rudy-giuliani",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-rudygiuliani.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Distorting the view",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-false.png",
+            "ruling": "False",
+            "ruling_slug": "false"
+        },
+        "ruling_date": "2007-11-13T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/oct/09/john-mccain/going-going--probably-wrong/",
+        "statement_date": "2007-10-09",
+        "ruling_headline": "Going, going ... probably wrong.",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Dearborn, Mich.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"A lot of people don't know that 50,000 Americans now make their living off eBay.\"",
+        "speaker": {
+            "last_name": "McCain",
+            "first_name": "John",
+            "name_slug": "john-mccain",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnmccain.jpg",
+            "party": {
+                "party_slug": "republican",
+                "party": "Republican"
+            }
+        },
+        "ruling_link_text": "Going, going ... probably wrong.",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-halftrue.png",
+            "ruling": "Half-True",
+            "ruling_slug": "half-true"
+        },
+        "ruling_date": "2007-10-09T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/sep/27/bill-richardson/not-exactly-but-close/",
+        "statement_date": "2007-09-26",
+        "ruling_headline": "Not exactly, but close",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a debate at Dartmouth College in Hanover, N.H.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"Today New Mexico (has) the sixth-fastest growing economy.\"\r\n",
+        "speaker": {
+            "last_name": "Richardson",
+            "first_name": "Bill",
+            "name_slug": "bill-richardson",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/Richardson_mug.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Not exactly, but close",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2007-09-27T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/sep/10/hillary-clinton/black-and-hispanic-homeowners-have-more-subprimes/",
+        "statement_date": "2007-09-09",
+        "ruling_headline": "Black and Hispanic homeowners have more subprimes",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a debate in Miami, Fla.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"About 40 percent of Hispanic homeowners have subprime mortgages.\"",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Black and Hispanic homeowners have more subprimes",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2007-09-10T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/aug/23/john-edwards/correct-but-he-uses-the-most-sensational-estimate/",
+        "statement_date": "2007-06-21",
+        "ruling_headline": "Correct, but he uses the most sensational estimate",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "New York City.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "An estimated 56 million Americans don't have bank accounts.",
+        "speaker": {
+            "last_name": "Edwards",
+            "first_name": "John",
+            "name_slug": "john-edwards",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnedwards.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Correct, but he uses the most sensational estimate",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-mostlytrue.png",
+            "ruling": "Mostly True",
+            "ruling_slug": "mostly-true"
+        },
+        "ruling_date": "2007-08-23T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/aug/21/hillary-clinton/there-are-plenty-of-jobs-available-for-trained/",
+        "statement_date": "2007-08-21",
+        "ruling_headline": "There are plenty of jobs available for trained automobile and airline technicians, but Clinton overestimates how much they pay.",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "<p>\"Let's pay attention to kids who are not going to college, which ends up being about 60 percent of the kids... and get them trained for the jobs that are there. Because, you know, there are auto mechanic jobs paying $50,000, $60,000 that they can't get filled. There are airline mechanic jobs paying a lot of money that can't get filled.\" Remarks at AFSCME forum 6/19/2007</p>\r\n<p>&nbsp;</p>",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "There are plenty of jobs available for trained automobile and airline technicians, but Clinton overestimates how much they pay.",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2007-08-21T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/aug/01/hillary-clinton/an-accurate-summary-of-economic-stats/",
+        "statement_date": "2007-07-22",
+        "ruling_headline": "An accurate summary of economic stats",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "Washington, DC",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"Corporate profits are up, CEO pay is up, but average wages of Americans are flat.\"",
+        "speaker": {
+            "last_name": "Clinton",
+            "first_name": "Hillary",
+            "name_slug": "hillary-clinton",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/politifact/mugs/GYI_659046701_585968470.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "An accurate summary of economic stats",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2007-08-01T00:00:00"
+    },
+    {
+        "statement_url": "/truth-o-meter/statements/2007/jun/12/john-edwards/economists-find-large-income-gap/",
+        "statement_date": "2007-05-12",
+        "ruling_headline": "Economists find large income gap",
+        "subject": [
+            {
+                "subject": "Economy",
+                "subject_slug": "economy"
+            }
+        ],
+        "statement_context": "a story by Reuters wire service.",
+        "statement_type": {
+            "statement_type": "Claim"
+        },
+        "target": [],
+        "statement": "\"We now have the greatest income inequality since the Great Depression.\"",
+        "speaker": {
+            "last_name": "Edwards",
+            "first_name": "John",
+            "name_slug": "john-edwards",
+            "canonical_photo": "http://static.politifact.com.s3.amazonaws.com/mugs/mug-johnedwards.jpg",
+            "party": {
+                "party_slug": "democrat",
+                "party": "Democrat"
+            }
+        },
+        "ruling_link_text": "Economists find large income gap",
+        "ruling_state": null,
+        "ruling": {
+            "canonical_ruling_graphic": "http://static.politifact.com.s3.amazonaws.com/rulings/tom-true.png",
+            "ruling": "True",
+            "ruling_slug": "true"
+        },
+        "ruling_date": "2007-06-12T00:00:00"
     }
 ]

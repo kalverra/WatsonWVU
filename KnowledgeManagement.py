@@ -18,6 +18,7 @@ def readInfo(dataString):
 		tableVal = row[0]
 		if(tableVal == dataString or StatementComparitor.similarity(tableVal, dataString) > 0.80):
 			return True
+	return False
 
 def containsInfo(dataString):
 	csvfile = open('knowledgeBase.csv', 'r+')

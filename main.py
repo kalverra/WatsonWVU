@@ -1,8 +1,17 @@
 import TwitterOAuthTool
 import time
+import SVM
+import re
+import KnowledgeManagement
+#import KnowledgeBase
+from python_sdk_master.WINSTON.Alchemy_Class import WATSON
 
 if '__main__' == __name__:
+    #Instantiate important abjects
     tool = TwitterOAuthTool.TwittTool()
+    svm = SVM.SVM('cleanedTrainingStatements.csv', 1000)
+    wat = WATSON() 
+    #Authorize the twitter bot
     auth_url = tool.get_authorization_url()
     print 'Visit the following url in a web-browser & authorize this app to access your twitter account.'
     print 'Once you are done authorizing, copy the PIN that twitter generates and paste it below.'
@@ -14,8 +23,8 @@ if '__main__' == __name__:
         print 'User @%s successfully authorized the app.' %me.screen_name
     else:
 	print 'Failed to get the key and secret for the user.'
-    #print 'Input the status that you would like to update!'
     tool.prepare_api()
+    #Main loop of program
     prevStatus = ""
     while(True):
 	#Reading in most recent status
@@ -26,12 +35,34 @@ if '__main__' == __name__:
 	statusText = tool.get_status_text(status)
 	if(statusText != prevStatus):
 		#Start analyzing the new status
-		statusId = tool.get_status_id(status)
-		print statusText
-		if(author.id != tool.get_me().id):
-			authorScreenName = [tool.get_user_screenName(author)]
-			print authorScreenName
-			tool.reply_to_tweet(statusId, "My reply to you goes here I guess.", authorScreenName)
+		statusText = re.sub('\@[^\s]+','', statusText).strip()
+		if(svm.classifyStatement(statusText) == 1):
+			#Get the keywords and numbers from the text
+			keywords = wat.getKeywordsStatement(statusText, len(statusText)/2)
+			numbers = wat.getNumbersStatement(statusText)
+			add = ''
+			for words in keywords:
+				add = add +' '+ words
+			for number in numbers:
+				add = add  + ' ' + number
+			isCorrect = False
+			if(KnowledgeManagement.readInfo(add)):
+				isCorrect = True
+			#else:
+				#KnowledgeBase.baseSearch(add)	
+				#if():
+				#
+				#else:
+			statusId = tool.get_status_id(status)
+			print statusText
+			if(isCorrect and author.id != tool.get_me().id):
+				authorScreenName = [tool.get_user_screenName(author)]
+				print authorScreenName
+				tool.reply_to_tweet(statusId, "This economic statement is truthful.", authorScreenName)
+			elif(not isCorrect and author.id != tool.get_me().id):
+				authorScreenName = [tool.get_user_screenName(author)]
+				print authorScreenName
+				tool.reply_to_tweet(statusId, "This economic statement is not truthful.", authorScreenName)
 	#Twitter rate limit is 15 requests in 15 minutes or 180 requests in 15 minutes. I was breaking it at 15 second intervals.
 	time.sleep(60)
 	prevStatus = statusText

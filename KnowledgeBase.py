@@ -20,3 +20,5 @@ def baseSearch(searchTerms):
     #Returns the result parsed from the regular expression
     #print(processed.group(0))
     return(str(processed.group(0)))
+
+print(baseSearch("trump taxes economy"))

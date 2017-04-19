@@ -231,11 +231,11 @@ def word_order_similarity(sentence_1, sentence_2):
 
 ######################### overall similarity ##########################
 
-def similarity(sentence_1, sentence_2, info_content_norm):
+def similarity(sentence_1, sentence_2):
     """
     Calculate the semantic similarity between two sentences. The last 
     parameter is True or False depending on whether information content
     normalization is desired or not.
     """
-    return DELTA * semantic_similarity(sentence_1, sentence_2, info_content_norm) + \
+    return DELTA * semantic_similarity(sentence_1, sentence_2, True) + \
         (1.0 - DELTA) * word_order_similarity(sentence_1, sentence_2)

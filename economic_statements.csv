@@ -1,0 +1,501 @@
+Statement,Ruling,Economics (T/F)
+"""Congressman proposes new tax on remittances to pay for Trump's border wall. We checked his numbers""",Half-True,T
+"""Donald Trump flubs how unemployment is calculated""",False,T
+"""Trump: Since China joined WTO, U.S. has lost 60,000 factories""",Mostly True,T
+"""Trump hints stock market record high linked to optimism about his presidency""",Mostly True,T
+"""Arkansas senator says of 1 million green cards issued, few are employment-based""",Mostly True,T
+"""Trump wrongly says U.S. has made others rich while our wealth has 'dissipated' """,Mostly False,T
+"""Trump's exaggerated claim that John Lewis' district is 'falling apart' and 'crime infested' """,Mostly False,T
+"""Mostly True: Trump tweet about GM Chevy Cruze manufacturing""",Mostly True,T
+"""Donald Trump correct that 1 in 4 working-age Americans not employed""",Mostly True,T
+"""Is Mike Pence right that 1 in 5 U.S. households don't have anyone working?""",Half-True,T
+"""Hillary Clinton says Donald Trump doesn't believe in equal pay""",Half-True,T
+"""On average, Donald Trump comparison of health care, housing doesn't match data""",Mostly False,T
+"""Trump's claim about weak economic growth under President Obama doesn't tell the full story""",Mostly True,T
+"""Donald Trump off-base in saying Hillary Clinton will 'double your taxes'""",Mostly False,T
+"""Trump says workers making less, working harder than 20 years ago""",Mostly False,T
+"""Limited data support Gina Raimondo's claim that motorists save when illegal immigrants get licenses""",Mostly True,T
+"""Tim Kaine says that during the Obama administration 15 million jobs were created """,Half-True,T
+"""Tim Kaine says Donald Trump, Mike Pence want to eliminate the federal minimum wage""",Half-True,T
+"""Hillary Clinton's off-base linkage of tax cuts and the Great Recession""",Mostly False,T
+"""Donald Trump: My Trans-Pacific Partnership opposition made Hillary Clinton change her stance""",False,T
+"""Donald Trump says Hillary Clinton lauded controversial Trans-Pacific trade deal""",Mostly True,T
+"""Donald Trump wrong that 'you will learn more' from financial disclosure form than from tax returns""",False,T
+"""At New York debate, Donald Trump denies saying climate change is a Chinese hoax""",Mostly False,T
+"""Hillary Clinton says Donald Trump has said he would negotiate down the national debt""",Mostly True,T
+"""Hillary Clinton says Donald Trump rooted for the housing crisis""",Mostly True,T
+"""Donald Trump wrong to say Hillary Clinton wants to shut down natural gas, fracking""",Half-True,T
+"""Experts say Donald Trump's 'policies' dovetail with what Vladimir Putin would like for Russia""",Mostly True,T
+"""Trump's Pants on Fire claim that black communities 'are absolutely in the worst shape' ever""",Pants on Fire!,T
+"""Hillary Clinton says immigration reform will add $700 billion to U.S. economy""",Half-True,T
+"""RNC makes weak case that 'over the past eight years, black youth unemployment is up'""",Mostly False,T
+"""Hillary Clinton correct; Hispanic wealth disproportionately lower than its share of the population""",True,T
+"""Donald Trump strays from key facts on Hillary Clinton 'amnesty,' social programs for immigrants""",Mostly False,T
+"""Donald Trump ad says illegal immigrants would be collecting Social Security under Hillary Clinton""",Mostly False,T
+"""Hillary Clinton's claim that she would make the biggest jobs investment since World War II""",Half-True,T
+"""Donald Trump says Hillary Clinton plan would tax small businesses at nearly 50 percent""",Mostly False,T
+"""Donald Trump exaggerates youth unemployment in Reddit AMA""",False,T
+"""Donald Trump correctly claims homeownership is at a 51-year low""",Mostly True,T
+"""Clinton tips hat to Bernie Sanders, but uses out of date statistic""",Half-True,T
+"""Hillary Clinton's Half True claim on job recovery during Obama's tenure""",Half-True,T
+"""Donald Trump gets a Full Flop for stance on minimum wage""",Full Flop,T
+"""Biden: Almost right on U.S. workers as the most productive""",Mostly True,T
+"""At DNC, Tim Kaine says even Republicans think Donald Trump's proposals are problematic""",Half-True,T
+"""Elizabeth Warren says Donald Trump was excited for 2008 housing crash""",Half-True,T
+"""At DNC, Bernie Sanders repeats claim that top one-tenth of 1% owns as much wealth as bottom 90%""",Mostly True,T
+"""Donald Trump Jr. says unemployment rates are manipulated for political purposes""",Pants on Fire!,T
+"""Donald Trump is largely right that household incomes are down $4,000 since 2000""",Mostly True,T
+"""Donald Trump says goods trade deficit was almost $800 billion in 2015""",True,T
+"""Donald Trump says Latino poverty has grown under Obama, ignores important stat """,Half-True,T
+"""Mike Pence touts top Indiana credit rating achieved before he became governor""",Mostly True,T
+"""Mike Pence says there are more Hoosiers going to work than ever before""",Half-True,T
+"""Jeff Sessions says lowest percentage of Americans are working in 40 years""",Mostly True,T
+"""Mike Pence offers misleading statistic on employment peak in Indiana""",Half-True,T
+"""Hillary Clinton says that, according to analysts, Donald Trump would increase debt by $30 trillion""",Half-True,T
+"""Barack Obama wrong about size of U.S. steel production, work force""",False,T
+"""Donald Trump exaggerates Hillary Clinton's role in growing trade deficit with China""",Mostly False,T
+"""Hillary Clinton says American 401(k)s lost $100 billion after Brexit vote""",Mostly True,T
+"""Hillary Clinton correct that analysts have called Donald Trump a top global economic risk""",True,T
+"""Clinton, Trump both say Moody's economist is on the other team""",Half-True,T
+"""Donald Trump flubs claim that Hillary Clinton deleted her support of trade deal from her book""",Pants on Fire!,T
+"""Obama: 'We've seen more manufacturing jobs created' than anytime since the 1990s""",Half-True,T
+"""In shot at Donald Trump, Hillary Clinton is correct about tariffs' role in Great Depression""",True,T
+"""Hillary Clinton faults Donald Trump for hoping for real estate crash that led to the Great Recession""",Mostly True,T
+"""Hillary Clinton says 2015 was the best year in US auto industry history""",Mostly True,T
+"""Are after-tax incomes up 14% since 2009? """,Mostly True,T
+"""Hillary Clinton says market forces made coal companies go bankrupt""",Mostly True,T
+"""Bernie Sanders says minimum wage hike to $15 would reduce federal assistance by $7.6 billion a year""",Mostly False,T
+"""Donald Trump's economic agenda is 'imposing massive taxes on the American people,' Ted Cruz claims""",Half-True,T
+"""Does Hillary Clinton want a $15 or $12 minimum wage?""",Mostly True,T
+"""Does CBO report suggest U.S. economy faces a decade of 'protracted economic malaise'?""",Half-True,T
+"""Club for Growth claim ignores key points of Donald Trump's stand on healthcare coverage""",False,T
+"""Ted Cruz pins too much blame for outflow of jobs on Barack Obama""",Mostly False,T
+"""No, GDP growth was not zero, as Donald Trump said in Miami GOP debate""",False,T
+"""Bernie Sanders' statistic on black, Hispanic unemployment has merit, but may be out of date""",Mostly True,T
+"""John Kasich ad says 20 million Americans 'are out of work'""",Half-True,T
+"""Bernie Sanders wrong to say, 'When you're white ... you don't know what it's like to be poor'""",False,T
+"""Hillary Clinton: Barack Obama set new Wall Street fundraising record when he first ran for president""",Mostly True,T
+"""Hillary Clinton says she wants to return minimum wage to high of '$12 an hour in today's dollars'""",Half-True,T
+"""Americans really haven't had a raise in 15 years, as Hillary Clinton says""",Mostly True,T
+"""Bernie Sanders has the correct diagnosis: U.S. prescription drug prices typically highest in world""",Mostly True,T
+"""Donald Trump repeats Pants on Fire claim that unemployment rate could be 42 percent""",Pants on Fire!,T
+"""Bernie Sanders offers overheated claim on where all Republicans stand on climate change""",False,T
+"""Bernie Sanders exaggerates concentration of wealth, income for top 1 percent""",Half-True,T
+"""Ted Cruz off on claim that median African-American income rose $5,000 under Reagan""",Mostly False,T
+"""Mixed bag for Bernie Sanders' claim about wages, hours, income growth""",Half-True,T
+"""Ted Cruz says U.S. has 'lowest percentage of Americans working today of any year since 1977'""",Mostly True,T
+"""Barack Obama says U.S. has 'strongest, most durable economy in the world' during State of the Union""",Mostly True,T
+"""Marco Rubio super PAC says Chris Christie imposed an Internet tax in New Jersey""",Mostly False,T
+"""Economy is 'too weak to raise income levels,' says Nikki Haley in State of the Union response """,Mostly True,T
+"""Business has created jobs every month since Obamacare became law, Obama said in State of the Union""",True,T
+"""We have cut 'our deficits by almost three-quarters,' Obama says in State of the Union""",Mostly True,T
+"""Hillary Clinton says wages haven't risen since turn of the century""",Half-True,T
+"""Bernie Sanders says over half of black workers earn less than $15 an hour""",Mostly True,T
+"""At debate, Rand Paul says income inequality is worse in cities run by Democrats""",Half-True,T
+"""Ben Carson said raising the minimum wage will increase joblessness""",False,T
+"""Christie: The U.S. is in the worst recovery since WWII""",Half-True,T
+"""Ted Cruz says median wage for women has dropped $733 under Obama""",False,T
+"""Rubio says more businesses are closing than opening for the first time in 35 years""",Half-True,T
+"""Internet graphic says suicide rate is much higher in Denmark than United States""",Mostly False,T
+"""In debate, Bernie Sanders says African-American youth unemployment is 51%, and 36% for Hispanics""",Half-True,T
+"""Wasserman Schultz: Under 'conservative Republican president we were losing 750,000 jobs a month'""",Mostly True,T
+"""Donald Trump says the unemployment rate may be 42 percent""",Pants on Fire!,T
+"""Jeb Bush says tax policies of George W. Bush 'created a dynamic effect of high growth'""",Mostly False,T
+"""Ted Cruz says slow economic growth under Jimmy Carter, Barack Obama stands apart""",Mostly False,T
+"""Hillary Clinton: Recessions more frequent under Republicans than Democrats""",Mostly True,T
+"""Trump: Walker turned a $1 billion surplus into a $2.2 budget shortfall""",Mostly False,T
+"""Donald Trump says U.S. has 93 million people 'out of work,' but that's way too high""",False,T
+"""Bill Clinton: Glass-Steagall repeal had nothing to do with financial crisis""",Mostly True,T
+"""John Kasich: 'I took the state of Ohio from an $8 billion hole  to a $2 billion surplus'""",Mostly True,T
+"""Hillary Clinton says the stock market has done better under Democratic presidents""",Mostly True,T
+"""Donald Trump: Black income, unemployment 'worse now than just about ever'""",False,T
+"""Barack Obama tells Jon Stewart the economy, 'by every metric, is better' than when he took office""",Mostly False,T
+"""Hillary Clinton says she called for Wall Street regulations early in the financial crisis""",True,T
+"""Bernie Sanders says 'real unemployment' rate for African American youth is 51 percent""",Mostly True,T
+"""Fiorina: U.S. destroying more businesses than it creates for first time 'in our history'""",Half-True,T
+"""Bernie Sanders says income inequality is widest since the 1920s""",Mostly True,T
+"""Donald Trump: Chevrolet in Tokyo, Japan, 'doesn't exist'""",Mostly False,T
+"""Donald Trump says 'real' unemployment rate is 18 to 20 percent""",False,T
+"""Donald Trump gets claim about U.S. GDP doubly wrong""",Pants on Fire!,T
+"""Martin O'Malley says it's first time since WWII that 70% of us earn same or less as 12 years ago""",Half-True,T
+"""Marco Rubio says for first time in 35 years, 'we have more businesses dying than we do starting'""",True,T
+"""Was Ronald Reagan's record on black unemployment better than Barack Obama's?""",Pants on Fire!,T
+"""Hillary Clinton says hedge fund managers 'pay less in taxes than nurses and truck drivers'""",False,T
+"""Labor Secretary Thomas Perez weighs incarceration's role in inner-city Baltimore's bleak job picture""",Half-True,T
+"""Carly Fiorina fights back against HP layoff claims, says she doubled size of company""",Mostly True,T
+"""John Boehner: 'We spend more money on antacids than we do on politics'""",False,T
+"""Jeb Bush correct that median income has fallen in U.S. since end of recession""",True,T
+"""Meme touts Mark Dayton's economic successes as governor of Minnesota; is it accurate?""",Half-True,T
+"""Martin O'Malley says U.S. has seen falling wages for 12 straight years""",Half-True,T
+"""Ted Cruz: Small business are going out of business 'in record numbers'""",False,T
+"""White House aide says job growth now at 'fastest pace in this country's history'""",False,T
+"""James Webb says stock market has tripled in value since 2009""",Mostly True,T
+"""Lindsey Graham has it wrong on 'Meet the Press': Labor participation rate is not at an all-time low""",Mostly False,T
+"""Ted Cruz says 92 million Americans aren't working""",Mostly False,T
+"""Jeb Bush says 'millions' have given up looking for work""",Mostly True,T
+"""John Boehner says Obamacare 'puts a penalty or a tax on employers for every new job they create'""",Half-True,T
+"""CEO of Carl's Jr. says 'Obamacare has caused millions of full-time jobs to become part-time'""",Half-True,T
+"""Obama says automakers have paid back all the loans it got from his admin 'and more'""",Mostly False,T
+"""Barack Obama says U.S. economy is creating jobs at fastest pace since 1999""",True,T
+"""Barack Obama says unemployment rate now lower than before the financial crisis of 2008""",Mostly True,T
+"""Obama: Since 2010, U.S. has created more jobs than 'all advanced economies combined'""",Half-True,T
+"""Barack Obama says U.S. auto industry has 'created about 500,000 new jobs' in past 5 years""",True,T
+"""Obama: more factories opening today than two decades ago""",Mostly True,T
+"""Warren: the average family in the bottom 90 percent made more money 30 years ago""",Mostly True,T
+"""Mitch McConnell says economic uptick coincides with expectation of GOP Senate takeover""",False,T
+"""Marco Rubio says Castros, not embargo, reason Cubans don't have Internet""",Mostly True,T
+"""Social media meme says number of unemployed has risen sharply under Barack Obama""",Pants on Fire!,T
+"""Obama: U.S. has put more people 'back to work' than all other advanced economies combined""",Half-True,T
+"""Does raising the minimum wage always result in job growth?""",Mostly False,T
+"""Joni Ernst praises Iowa economy, compares it to weak U.S. wage trend""",Mostly False,T
+"""Barack Obama says states that raised minimum wages have had higher job growth this year""",Half-True,T
+"""Thom Tillis says North Carolina is 'near the national average' for unemployment.""",Half-True,T
+"""Thom Tillis says that Kay Hagan voted to kill"" the equivalent of 2.5 million jobs""",Mostly False,T
+"""Barack Obama says deficit fell from 10 percent of GDP to 3 percent on his watch""",Half-True,T
+"""Do other countries have a higher minimum wage than the United States? """,Half-True,T
+"""Rand Paul says income inequality is worse in cities with Democratic mayors""",Half-True,T
+"""Rand Paul rightly says the government shutdown was more expensive than keeping it open""",True,T
+"""Rob Astorino, GOP challenger to Andrew Cuomo, says New York had worst recovery from recession""",False,T
+"""Graham: Russia 'has an economy the size of Italy'""",Mostly True,T
+"""Barack Obama says U.S. has recovered from recession better than almost every advanced country""",Mostly True,T
+"""Democratic group says Pennsylvania is 49th in job creation under Gov. Tom Corbett""",Mostly True,T
+"""Hillary Clinton says economic stats were 100 times better under Bill Clinton than Ronald Reagan""",False,T
+"""Social media meme says Alan Greenspan said insecure workers 'serve the masters gladly'""",Pants on Fire!,T
+"""Rep. Hartzler says Export-Import Bank is free for taxpayers""",Half-True,T
+"""John Boehner says Keystone XL pipeline would create 100,000 jobs""",False,T
+"""Did Republican Senate candidate Tillis cut $500 million from the North Carolina education budget?""",Half-True,T
+"""In new book, Hillary Clinton touts quality-of-life advances in Afghanistan""",Mostly True,T
+"""Alison Lundergan Grimes charges that Mitch McConnell says ""it's not his job to bring jobs to Kentucky""",Half-True,T
+"""Boehner: Obama's climate change policies will kill 224,000 jobs and surge electric bills by billions""",False,T
+"""Social media meme says 75 have joined food stamp rolls for every job created under Barack Obama""",False,T
+"""Elizabeth Warren says the top five banks are 38 percent larger than at the time of the bailout""",Mostly True,T
+"""Does a $10.10 minimum wage get you out of poverty?""",Half-True,T
+"""Social media meme says lawmakers will get $2,800 raise in January 2015""",Half-True,T
+"""Pennsylvania Gov. Tom Corbett attacks Democratic rival Tom Wolf over taxes, job losses""",Mostly False,T
+"""Barack Obama says 'the average minimum wage worker is 35 years old'""",Mostly False,T
+"""Social media meme says 300,000 suicides are attributable to foreclosures""",Pants on Fire!,T
+"""Senate Dem group claims Koch brothers support tax breaks for outsourcing jobs""",False,T
+"""White House says most of those helped by its minimum-wage hike are full-time workers, with average age of 35""",Half-True,T
+"""Rob Portman says average U.S. family is earning $4,000 less than five years ago""",True,T
+"""Barack Obama says half of Republicans agree with his proposed minimum wage hike""",Mostly True,T
+"""John Kerry tells CBS viewers that Russian isolation comes with big economic risks""",Mostly True,T
+"""Barack Obama says fewer black, Latino young men participate in the labor force than young white men""",Mostly True,T
+"""Bobby Jindal says Louisiana's growth has outpaced the nation's since the recession""",Mostly True,T
+"""NRCC says Congressional Budget Office predicts Obamacare will cost economy 2.5 million jobs""",Mostly False,T
+"""Rand Paul says Barack Obama 'spent nearly a trillion dollars on make-work government jobs.'""",False,T
+"""Business leaders declared 'China is no longer the worlds No. 1 place to invest; America is,' Obama says""",Mostly True,T
+"""Barack Obama says the minimum wage was higher during Ronald Reagan's first State of the Union""",Mostly True,T
+"""Rep. McMorris Rodgers says more people stopped looking for a job than found one""",Half-True,T
+"""In State of the Union, Obama says U.S. produces more oil than it buys""",True,T
+"""In State of the Union, Obama says average wages have 'barely budged' over past 4 years""",True,T
+"""Labor force participation is at lowest point since 1978, says Texas Sen. Ted Cruz""",Mostly True,T
+"""Obama says U.S. produces more oil than it imports for first time in nearly 20 years""",True,T
+"""Rep. Steve Southerland, R-Fla., says 97 percent of those with jobs escape poverty""",Mostly True,T
+"""Rand Paul says the longer people get unemployment insurance, it provides 'some disincentive' to work""",Mostly True,T
+"""There are 3 unemployed people for every job opening, Obama adviser says""",True,T
+"""Barbara Lee says 60 percent of people on food assistance are working""",Mostly True,T
+"""Rob Portman says 'about 2 percent of Americans get paid the minimum wage'""",Mostly True,T
+"""Facebook meme says Vladimir Putin accused Barack Obama of being an idiot""",Pants on Fire!,T
+"""Barack Obama says minimum wage is lower now than under Harry Truman""",Half-True,T
+"""Schakowsky said based on GDP per capita, the United States 'has never been richer'""",True,T
+"""Ted Cruz says U.S. has averaged 0.9 percent growth over past four years""",Mostly False,T
+"""Conservative group says Mary Landrieu backs Obamacare even as it decreases full-time employment""",Mostly False,T
+"""Half of all CEOs said the shutdown set back hiring plans over next 6 months, says Obama""",Mostly True,T
+"""Louie Gohmert says deficit ballooned from $160 billion to $1.6 trillion in just one year""",Mostly False,T
+"""Charles Schumer says Dow Jones lost 2,000 points after last debt ceiling fight""",Mostly True,T
+"""John Boehner says U.S. will have record revenues this year""",Half-True,T
+"""Robert Reich says under sanctions, 'Iran is suffering 30% inflation, 20% unemployment'""",Mostly True,T
+"""John Boehner says more Americans are leaving the workforce than are finding jobs""",Half-True,T
+"""Nikki Haley says South Carolina has had fastest growth in the Southeast""",Mostly True,T
+"""Alan Krueger, top economist to Obama, says most new jobs since health care law passed are full time""",True,T
+"""Susan Collins says this year, 'overwhelming majority' of new jobs are part time""",True,T
+"""Barack Obama says this year has been the best start for private-sector job creation since 1999""",Mostly True,T
+"""Barack Obama says minimum wage pays less now than when Ronald Reagan was sworn in""",Mostly True,T
+"""Are 90 million Americans not working or not looking for work?""",Mostly False,T
+"""Sen. Marco Rubio says 75% of small businesses say theyll fire workers or cut hours under Obamacare""",Pants on Fire!,T
+"""Barack Obama says businesses have created nearly twice as many jobs in current recovery as in previous recovery""",Half-True,T
+"""Barack Obama says top 1 percent saw incomes quadruple, while typical family saw theirs barely budge""",True,T
+"""Bernie Sanders says six of 10 Americans say wealth should be distributed more equally""",True,T
+"""Rep. Cathy McMorris Rodgers says fewer now working than any point since 1979""",Half-True,T
+"""Does earning $500,000 in Manhattan make you middle class?""",False,T
+"""Rep. Virginia Foxx warns of mismatch between skills, available jobs""",Mostly True,T
+"""Kevin McCarthy says federal government has more revenue now than any other time""",Mostly False,T
+"""Barack Obama says U.S. has created half million manufacturing jobs in three years""",True,T
+"""Sean Hannity says under President Barack Obama, 8.3 million fewer Americans are working""",False,T
+"""Michael Moore said U.S. lost millions of jobs per month under Bush""",False,T
+"""Clint Eastwood says in ad that U.S. borrows $4B day, much 'from China""",Half-True,T
+"""Mitt Romney says Latin Americas economy is ""almost as big"" as the economy of China""",Half-True,T
+"""Barack Obama touts his record on improving employment for veterans""",Half-True,T
+"""Barack Obama says his administration has created 5 million jobs""",Half-True,T
+"""Mitt Romney ad says under Barack Obama, there are 450,000 more unemployed women""",Half-True,T
+"""Ad says Barack 'Obamas spending drove us $5 trillion deeper in debt.'""",Half-True,T
+"""Ad says Barack Obama promised the jobless rate would be 5.6% if Congress passed the stimulus""",Mostly False,T
+"""Ad says workforce smaller under Barack Obama than any time since Jimmy Carter""",Mostly False,T
+"""Union-backed ad says Mitt Romney's investments created zero jobs""",Pants on Fire!,T
+"""Barack Obama says he's responsible for just 10 percent of budget shortfalls""",False,T
+"""Mitt Romney-aligned group says 'real' unemployment rate is 19 percent""",Mostly False,T
+"""Mitt Romney says redistribution has never been a characteristic of America""",Pants on Fire!,T
+"""Romney ad faults Obama for falling incomes""",Half-True,T
+"""Romney repeats claim that Obama promised unemployment would not exceed 8 percent""",Mostly False,T
+"""Barack Obama says U.S. has gained a half-million manufacturing jobs""",True,T
+"""Strickland credits auto rescue for Ohio manufacturing gains""",Half-True,T
+"""Bill Clinton says 4.5 million jobs have been created under Barack Obama""",Mostly True,T
+"""Bill Clinton says Democratic presidents top Republican presidents in job creation""",True,T
+"""Did Mitt Romney's Massachusetts rank 47th in job creation?""",Half-True,T
+"""Mitt Romney says utility prices have risen under Barack Obama""",Half-True,T
+"""Nikki Haley ties Obama to Boeing labor dispute""",Half-True,T
+"""Scott Walker says 44 of 50 states last month saw unemployment-rate increases""",Half-True,T
+"""Sher Valenzuela says regulation is a big factor holding back small businesses""",Half-True,T
+"""Rep. Michele Bachmann claims report says the president's policies will drive up unemployment""",False,T
+"""Barack Obama's campaign says his recovery has outpaced Ronald Reagan's in job creation""",False,T
+"""Pro-Obama group blames Romney in woman's death""",False,T
+"""Mitt Romney says 90 percent of cities saw unemployment rise in June""",Mostly False,T
+"""Republican Jewish Coalition says half of recent college grads ""can't find a job""""",Mostly True,T
+"""Bernie Sanders says Walmart heirs own more wealth than bottom 40 percent of Americans""",True,T
+"""Putting Mitt Romney's attacks on 'You didn't build that' to the Truth-O-Meter""",False,T
+"""Super PAC ad says Mitt Romney outsources jobs to India""",Half-True,T
+"""Pro-Obama super PAC ad says thousands of Chinese workers owe their jobs to Mitt Romney's companies""",Half-True,T
+"""Did Barack Obama hold 100-plus fundraisers while his jobs council never met?""",True,T
+"""Were Romney's companies 'pioneers in outsourcing' ?""",Half-True,T
+"""Mitt Romney says he reduced Massachusetts unemployment to 4.7 percent""",Half-True,T
+"""Barack Obama ad says manufacturing jobs fared worse in Massachusetts under Romney""",Half-True,T
+"""Mitt Romney campaign says job growth in Massachusetts accelerated as gubernatorial term went on""",Half-True,T
+"""David Axelrod repeats claim that Massachusetts under Mitt Romney ranked 47th in job growth""",Half-True,T
+"""Crossroads ad says Obama has failed to stem foreclosure crisis""",Mostly True,T
+"""Viral Facebook post says Barack Obama has lowest spending record of any recent president""",Mostly True,T
+"""Did Mitt Romney flip-flop on the economic stimulus?""",Half Flip,T
+"""Barack Obama says government job losses on his watch are unprecedented""",False,T
+"""Mitt Romney says creating 500,000 net jobs a month is historically 'normal'""",Half-True,T
+"""Mitt Romney says youth unemployment rate is double what it is for all Americans""",Half-True,T
+"""Barack Obama says family incomes have fallen by 6 percent""",Half-True,T
+"""Tavis Smiley says ""one out of two Americans  are living either in or near poverty""""",Half-True,T
+"""Vice President Joe Biden says, 'General Motors is the largest corporation in the world'""",False,T
+"""President Barack Obama campaign video says auto companies 'repaid their loans'""",Half-True,T
+"""Obama campaign movie says auto bailout money had run out when he took office""",Mostly True,T
+"""NRCC ad blames Barack Obama for food stamp use rising by 13,000 a day""",Half-True,T
+"""NRCC ad says 1,500 jobs lost daily since President Barack Obama took office""",Mostly False,T
+"""Citing Congressional Budget Office, chamber ad says unemployment could exceed 9 percent""",Mostly False,T
+"""Mitt Romney says president told people to skip Vegas conventions""",Mostly False,T
+"""Mitt Romney says a broader measure of national unemployment exceeds 15 percent""",True,T
+"""In ""Debbie-Spend-It-Now"" ad, Pete Hoekstra errs on unemployment rate statistic""",False,T
+"""Sen. Rick Santorum says he warned 'of a meltdown and a bubble in the housing market'""",Mostly False,T
+"""Mitch Daniels says 'nearly half of all persons under 30 did not go to work today'""",Pants on Fire!,T
+"""Have private-sector jobs grown by 3 million in 22 months, with the best annual totals since 2005?""",Mostly True,T
+"""President Barack Obama says that after bailout, GM is now the world's top automaker""",Half-True,T
+"""Mitt Romney says U.S. median income has declined 10 percent in the last four years""",Half-True,T
+"""Rick Santorum says a 2008 spike in oil prices caused Florida's economy to falter""",Mostly False,T
+"""Mitt Romney says there are 25 million Americans out of work""",Half-True,T
+"""Newt Gingrich says Obama put more people on food stamps than any other U.S. President""",Half-True,T
+"""Mitt Romney tweets that more Americans have lost their jobs under Barack Obama than any president in modern history""",Mostly False,T
+"""Jon Huntsman accuses Mitt Romney of enjoying firing people""",Mostly False,T
+"""Mitt Romney says Barack Obama didn't expand U.S. trade deals""",False,T
+"""Mitt Romney, once again, says U.S. is 'inches away from no longer being a free economy'""",Pants on Fire!,T
+"""Huntsman repeats claim that he signed a flat tax, led nation in job creation as Utah governor""",Half-True,T
+"""Mitt Romney says U.S. income is almost 50 percent higher than in Europe""",Mostly True,T
+"""Barack Obama reelection video says he closed corporate tax loopholes that were sending profits overseas""""",Half-True,T
+"""Did the Fed create $15 trillion during the bailout and send $5 trillion overseas?""",Mostly False,T
+"""Newt Gingrich says unemployment only dropped because of people who stopped looking for work""",Mostly False,T
+"""Newt Gingrich says Barack Obama has killed jobs in energy, manufacturing""",Mostly False,T
+"""Mitt Romney changes position on TARP, DNC says""",False,T
+"""Republican National Committee Web video attacks Barack Obama's economic record in Pennsylvania""",Half-True,T
+"""Mitt Romney ad charges Obama said, 'If we keep talking about the economy, were going to lose'""",Pants on Fire!,T
+"""'Drug Addict' TV ad says U.S. borrows 41 cents on the dollar""",Mostly True,T
+"""Debbie Wasserman Schultz says Obama has created ""millions"" of manufacturing jobs""",Half-True,T
+"""Rachel Maddow says Wall Street fees claim a third of 401(k) values""",Mostly False,T
+"""Blog post says GOP has sponsored ""zero"" job creation bills""",Pants on Fire!,T
+"""Harry Reid says it's 'very clear that private sector jobs have been doing fine'""",Mostly False,T
+"""Mitt Romney hits Rick Perry, saying 40 percent of Texas job growth went to illegal immigrants""",Half-True,T
+"""Rick Santorum says two-parent families better off financially""",Half-True,T
+"""Jon Huntsman touts record on taxes, job creation in New Hampshire debate""",Half-True,T
+"""Mitt Romney says rising government share threatens free economy""",Mostly False,T
+"""Are statistics in the Occupied Wall Street Journal correct?""",Half-True,T
+"""Viral Facebook post on CEO-worker pay ratio has obscure past""",False,T
+"""Barack Obama says Arab Spring sent gas prices higher""",Half-True,T
+"""David Axelrod says typical white male worker is earning no more than in 1973""",Mostly True,T
+"""Gary Johnson says U.S. is ""bankrupt""""",False,T
+"""Barbara Boxer says 400 richest taxpayers saw incomes grow by 400%, tax rates fall by 40%""",Mostly True,T
+"""Nancy Pelosi says jobs increased faster in 2010 than in eight years under Bush""",Half-True,T
+"""Eric Cantor blog post attacks Barack Obama for ""tax on soup kitchens""""",Mostly False,T
+"""Ron Paul says under Rick Perry, government jobs grew by 170,000 in Texas""",Half-True,T
+"""Rick Perry says the 2009 stimulus 'created zero jobs'""",Pants on Fire!,T
+"""Michele Bachmann says gasoline cost $1.79 a gallon when Barack Obama took office""",True,T
+"""Jon Huntsman says Utah was No. 1 in job creation when he was governor""",Half-True,T
+"""Barack Obama says payroll tax cut has boosted average family income by $1,000""",Mostly True,T
+"""Bachmann says Obama 'has virtually no one in his cabinet with private-sector experience'""",Pants on Fire!,T
+"""Robert Reich says ratio of corporate profits to wages is highest since before Great Depression""",True,T
+"""Brazile said 53 percent of black wealth has disappeared in the downturn""",Mostly True,T
+"""Mitt Romney said as governor he built a Massachusetts rainy day fund""",Mostly True,T
+"""Romney says government has grown from 27 percent to 37 percent of U.S. economy""",Mostly True,T
+"""Mitt Romney gets another Pants on Fire for saying we're 'inches away' from not being capitalist any more""",Pants on Fire!,T
+"""Ron Paul ad says Democrats only want tax increases""",False,T
+"""Raul Labrador says tax hike led to spike in Michigan unemployment""",Mostly False,T
+"""Jennifer Granholm says massive government cuts in Michigan didn't spur growth""",Mostly True,T
+"""Harry Reid says 8 million jobs lost during George W. Bush's years in office""",Pants on Fire!,T
+"""Arianna Huffington says U.S. debt ceiling rules are unusual internationally""",Mostly True,T
+"""Bernie Sanders says 12 million have slipped from middle class into poverty since 2000""",Half-True,T
+"""Grover Norquist said the economy has grown or been damaged by capital gains tax changes""",False,T
+"""Marc Morial says black unemployment has actually worsened during recovery""",True,T
+"""Gary Johnson says tax breaks made New Mexico the 'second Hollywood'""",Half-True,T
+"""Crossroads GPS says Barack Obama wants to ""raise taxes and keep spending more""""",Half-True,T
+"""President Barack Obama says public sector job losses increasing as stimulus dwindles""",Mostly True,T
+"""Sarah Palin says price of Slim Jims has risen 169 percent recently""",False,T
+"""Paul Krugman says government jobs have fallen by half million since January 2009""",True,T
+"""Barack Obama says post-9/11 veterans have higher unemployment than non-veterans""",True,T
+"""Barack Obama claims credit for ""at least 16 tax cuts to small businesses.""",Mostly True,T
+"""HUD secretary Shaun Donovan says housing prices ""stabilized"" since Barack Obama entered office""",Half-True,T
+"""Steve Case says 40 percent of the Fortune 500 were started either by immigrants or children of immigrants""",Half-True,T
+"""Former U.S. Rep. Richard Swett says Huntsman flip-flopped on stimulus""",Half-True,T
+"""Michele Bachmann uses Barack Obama's 'one-term' president comment against him""",Mostly True,T
+"""Jim DeMint says federal government has more revenue coming in ""than we ever have""""",False,T
+"""Michele Bachmann says food prices for barbecues up 29 percent because of Barack Obama""",False,T
+"""Harry Reid says Hispanic unemployment 'ticking down' from all-time high""",Mostly False,T
+"""Dems say under Gov. Mitt Romney, Massachusetts ranked 47th out of 50 states in job creation""",Half-True,T
+"""Mitt Romney says we're in ""the slowest job recovery since Hoover""""",False,T
+"""Michele Bachmann says Obamacare will kill 800,000 jobs""",Mostly False,T
+"""RNC chair Reince Priebus says today's long-term unemployment is worse than Great Depression""",False,T
+"""Paul Krugman says average unemployed worker has been jobless for nearly 40 weeks""",True,T
+"""Austan Goolsbee says current recovery beats job creation record of George W. Bush recovery""",Mostly True,T
+"""Austan Goolsbee says manufacturing jobs growing fastest in almost 15 years""",Mostly True,T
+"""Mitt Romney says U.S. is ""only inches away from ceasing to be a free market economy.""",Pants on Fire!,T
+"""Nancy Pelosi says more jobs created in Obama's first year than eight years of George W. Bush""",False,T
+"""Newt Gingrich defends calling Barack Obama ""food stamp president""""",Half-True,T
+"""Newt Gingrich inaccurate in budget, debt claims in video announcement""",False,T
+"""Barack Obama says the United States has doubled exports during his presidency""",False,T
+"""John Boehner says Bush tax cuts created 8 million jobs over 10 years""",False,T
+"""Arianna Huffington says unemployment gains are actually from shrinking workforce, not job creation""",Mostly True,T
+"""Rep. Joe Walsh said that every time we've cut taxes, revenues have gone up, the economy has grown""",False,T
+"""Reince Priebus says Americans pay more in taxes than on groceries, clothing, shelter combined""",Half-True,T
+"""Obama says incomes increased more than $250,000 for top 1 percent of Americans, dropped for bottom 90 percent""",Half-True,T
+"""Steve Moore says ratio of people working in government, manufacturing is an almost exact reversal"" of pattern in 1960""",Half-True,T
+"""RNC Chair Reince Priebus says U.S. has lost 26 million jobs under Barack Obama""",Pants on Fire!,T
+"""George Will says most recent recession killed more jobs than previous four recessions combined""",True,T
+"""Paul Ryan says CBO model of economy self-destructs due to rising deficits in 2037""",Half-True,T
+"""Barack Obama says U.S. oil production last year was highest since 2003""",Mostly True,T
+"""Mike Huckabee says single moms 'very poor, under-educated, can't get a job'""",Mostly False,T
+"""John McCain errs in saying iPads, iPhones are made in the USA""",False,T
+"""Bill O'Reilly says unemployment is lower in 'right-to-work' states""",Mostly True,T
+"""Mitch Daniels says interest on debt will soon exceed security spending""",False,T
+"""Mitt Romney tells CPAC that Canada created more jobs in January than the U.S. did""",True,T
+"""Mitt Romney tells CPAC that more are out of work in U.S. than employed in Canada""",False,T
+"""Rand Paul says Israel's per capita income ""is greater than probably three-fourths of the rest of the world.""""",True,T
+"""'Wall Street Journal's' Steve Moore claims low income people saw the biggest gains during the 1980s""",False,T
+"""Rachel Maddow tangles with 'Wall Street Journal's' Steve Moore over Reagan tax cuts and income inequality""",Mostly True,T
+"""Michele Bachmann, in State of the Union rebuttal, says government employment grew as jobs overall declined""",Half-True,T
+"""Rep. Michele Bachmann says White House promised stimulus would keep unemployment below 8 percent """,Mostly False,T
+"""Paul Ryan, in State of the Union response, says U.S. debt will soon eclipse GDP""",True,T
+"""Barack Obama in State of the Union says U.S. corporate tax rate is among world's highest""",True,T
+"""Barack Obama in State of the Union says corporate profits are up over the past two years""",True,T
+"""Mike Pence says Dodd-Frank financial regulation bill ""will kill jobs""""",Mostly False,T
+"""The health care law a ""job killer""? The evidence falls short""",False,T
+"""Bumper sticker says CEOs rake in the equivalent of a worker's yearly pay every two days""",Half-True,T
+"""Matthew Dowd says economy has ""only worsened"" under Obama""",Half-True,T
+"""Bernie Sanders, in viral speech, says top 1 percent earn more than 23 percent of U.S. income""",True,T
+"""Sen. Harry Reid says Sen. John McCain opposes 'don't ask, don't tell' due to economy""",Half-True,T
+"""National Association of Manufacturers cites CBO support for job creation powers of full Bush tax cut extension""",Half-True,T
+"""Kent Conrad says federal spending's share of GDP is at 60-year peak, tax revenues at 60-year low""",True,T
+"""Rand Paul says federal spending has risen to 25 percent of GDP""",True,T
+"""Rand Paul says federal workers paid $120,000, private-sector workers only $60,000""",False,T
+"""Who's right on food inflation: Sarah Palin or the Wall Street Journal?""",Mostly False,T
+"""Tim Kaine said economy shrank for the first time in '09""",Mostly False,T
+"""Mike Prendergast mailer says Kathy Castor voted for $2.6 million to teach prostitutes in China to drink responsibly """,Pants on Fire!,T
+"""President Barack Obama claims Mitch McConnell says his main goal is for GOP to regain the White House""",Half-True,T
+"""Crossroads GPS says North Dakota's economy is 'reeling,' but is it?""",Pants on Fire!,T
+"""Barack Obama says current financial recovery has been less expensive than S&L cleanup of '80s""",Half-True,T
+"""Obama says most job losses occurred before his economic policies took hold""",True,T
+"""Nancy Pelosi says more private sector jobs created in 2010 than in eight years under Bush""",Half-True,T
+"""Mark Kirk campaign ads say Alexi Giannoulias lost $73 million in our kids college savings""",Half-True,T
+"""Alexi Giannoulias attacks Mark Kirk on tax cuts, statements about military service and unemployment""",Mostly False,T
+"""Christine O'Donnell claims Chris Coons has ""Marxist beliefs""""",Pants on Fire!,T
+"""In debate, Chris Coons says Christine O'Donnell is wrong on county unemployment rate""",True,T
+"""Adam Kinzinger says ""hundreds of thousands"" of Illinois jobs lost during Debbie Halvorson's career""",Half-True,T
+"""Americans for Job Security targets Zack Space, other Dems on their agenda""",Half-True,T
+"""Nancy Pelosi cites John Boehner in saying GOP plans return to old economic policies""",Pants on Fire!,T
+"""""Mourning in America"" ad echoing Reagan classic gets its numbers right""",True,T
+"""Obama says Bush administration put no conditions on aid to auto companies""",False,T
+"""Obama too soft on Wall Street? Public worries about Wall Street's influence""",True,T
+"""GOP rival says Nancy Pelosi's San Francisco office rent is over-the-rainbow high and downright wicked""",True,T
+"""Obama says Boehner doesn't think jobs for teachers, police, firefighters are worth saving""",Mostly False,T
+"""How similar were the recessions under Ronald Reagan, Barack Obama?""",Mostly True,T
+"""Donna Brazile says 45 percent of unemployed have been jobless for at least six months""",Mostly True,T
+"""Did the stimulus cost more than the war in Iraq?""",Mostly False,T
+"""Laura Tyson says college grads have just 4.5 percent unemployment rate""",Mostly True,T
+"""Maddow claims spending is more stimulative than tax cuts""",Half-True,T
+"""Sharron Angle blames Harry Reid for Nevada economic woes""",Half-True,T
+"""Lawmaker claims Democrats want to hit small businesses with tax increases""",Pants on Fire!,T
+"""John Boehner says unemployment has exceeded 9 percent for two years running""",False,T
+"""George Will says personal saving rate has increased during recession""",True,T
+"""Barack Obama says his budget would lower non-defense spending to JFK levels""",Mostly True,T
+"""Brazile claims income has grown for the top 1 percent; stagnates for the bottom half""",True,T
+"""On ""Meet the Press"", David Gregory says financial sector equals 25 percent of U.S. economy""",Mostly False,T
+"""Marc Morial correct on unemployment rates for whites, blacks, Latinos""",True,T
+"""Lawmaker claims unemployment benefits boost economic growth""",Half-True,T
+"""Geithner claims U.S. had six months of positive job growth in the private sector""",True,T
+"""Joe Biden lauds Obama's job creation record""",Mostly True,T
+"""Gillespie touts Bush record on taxes, job creation""",Mostly True,T
+"""Senate candidate Mark Kirk says rival gave mobsters bank loans""",Half-True,T
+"""Senor inflates Japan's interest payments""",False,T
+"""Jerry Brown says California's not exactly the Golden state when it comes to credit ratings  """,True,T
+"""Pelosi touts Democratic record on job creation""",Half-True,T
+"""Critz touts Democratic role in low taxes, job creation""",Half-True,T
+"""George Will pegs Sen. Bennett's loss to votes on TARP, stimulus, health care""",Mostly False,T
+"""Will says Greece's economy is same size as Dallas-Fort Worth's""",True,T
+"""CEO says GM has repaid government loans in full """,Half-True,T
+"""Six largest banks getting bigger, Brown said""",True,T
+"""Sherrod Brown says financial bill will end 'too-big-to-fail'""",Mostly False,T
+"""Obama didn't expand offshore drilling, Boehner says""",Mostly False,T
+"""Paul Ryan's federal dole statistics omit important details""",Mostly False,T
+"""Bank bailouts not in bill, but liquidation is""",False,T
+"""Bill Clinton takes credit for ""flowering"" of economy in 1990s""",Half-True,T
+"""Sen. Richard Shelby overlooks safeguards in financial regulation bill""",False,T
+"""New bill doesn't alter interest rate""",False,T
+"""Foxx blames recession on Democratic Congressional takeover""",Pants on Fire!,T
+"""Pelosi claims that health care reform will create thousands of jobs""",Half-True,T
+"""Obama says stimulus is responsible for 2 million jobs saved or created""",Half-True,T
+"""Boehner says unemployment will stay at 10 percent this year""",Mostly True,T
+"""Stewart claims that the stimulus bill is one-third tax cuts""",Mostly True,T
+"""Palin claims Biden held a transparency board meeting behind closed doors""",False,T
+"""Gregg claims that TARP money must be used to pay down the deficit""",True,T
+"""Obama criticizes Republicans who opposed stimulus, then claim credit for projects it funded""",True,T
+"""Ron Paul claims money supply has doubled""",Mostly False,T
+"""In PolitiFact debut, Brown says federal jobs pay twice as much as private sector jobs""",False,T
+"""Obama inherited deficits from Bush administration""",Mostly True,T
+"""Boehner claims Obama's proposed spending freeze will only reduce government spending ""by little more than one-half of 1 percent""""",True,T
+"""Tax cut for 95 percent? The stimulus made it so""",True,T
+"""Obama claims U.S. budget went from surplus to deficit in 10 years""",Mostly True,T
+"""Obama claims 2 million more Americans would be unemployed if not for stimulus""",Half-True,T
+"""Congresswoman says Democratic presidents create more private-sector jobs""",True,T
+"""Beck says Chile easily tops U.S. in ""economic freedom"" rankings""",Mostly False,T
+"""Obama says Congressional Budget Office found the economic stimulus has created up to 1.6 million jobs""",Half-True,T
+"""Limbaugh says unemployment drop was skewed by Thanksgiving holiday""",False,T
+"""Pence says Democrats' plan to spend TARP money on economic stimulus is unlawful""",Half-True,T
+"""Obama said reporters didn't ask questions on the issues, but they did""",False,T
+"""Beck says less than 10 percent of Obama Cabinet has worked in private sector""",False,T
+"""Recovery.gov assigns statewide education jobs to one congressional district""",Mostly False,T
+"""Nonexistent congressional districts were on Recovery.gov. They're gone now.""",Mostly True,T
+"""Chain e-mail claims Obama closed offshore tax safe havens""",Half-True,T
+"""Recovery.gov shows jobs in Congressional districts that don't exist""",Mostly False,T
+"""Palin claims Reagan faced a worse recession than Obama""",False,T
+"""Obama says job growth always lags behind economic growth""",True,T
+"""Rush Limbaugh said bump in GDP due to Cash for Clunkers and government incentives to first-time home buyers""",Half-True,T
+"""California Republican lumps Obama in with Hoover in his approach to fighting recession""",False,T
+"""Freedom Project claims the deficit is the biggest in history  and that Democrats are to blame""",Half-True,T
+"""Dobbs claims stimulus jobs cost big bucks""",Mostly True,T
+"""Michael Moore claims in his movie, 'Capitalism,' that during the Reagan era, millions were thrown out of work """,Mostly False,T
+"""Michael Moore claims in 'Capitalism' that during Reagan years, productivity went up while wages remained frozen """,Mostly True,T
+"""Cokie Roberts says government accounts for 40 percent of GDP""",Mostly True,T
+"""Michael Moore says young people are increasingly warm to socialism""",False,T
+"""Michael Moore movie says that top 1 percent owns more financial wealth than bottom 95 percent""",Mostly True,T
+"""Sowell claims stimulus was rushed through Congress in two days""",False,T
+"""George Will claims the stimulus money will be spent slowly""",Mostly False,T
+"""Michelle Malkin says former Clinton official says extending unemployment benefits is counterproductive""",Half-True,T
+"""Rep. Steny Hoyer claims there were more job losses in Bush's last three months than last three under Obama""",Mostly True,T
+"""Obama overstates tax relief to individuals and businesses""",Half-True,T
+"""Bennett says stimulus is spending too much on road signs promoting stimulus""",Half-True,T
+"""Palin claims that the cap-and-trade bill includes a $4.2 billion worker program""",Mostly True,T
+"""Sen. Jon Kyl says only 6.8 percent of stimulus has been spent""",Mostly True,T
+"""Vice President  Biden claims $174 billion of stimulus has been committed""",Mostly True,T
+"""Cantor and other Republicans say Obama promised stimulus would keep unemployment rates below 8 percent""",Mostly False,T
+"""Boehner claims city uses stimulus money to hire someone to apply for more stimulus money""",False,T
+"""Boehner ad says stimulus paid for a Bridge to Rusty's""",Mostly False,T
+"""Mitch McConnell's record distorted by Democratic campaign ad""",Mostly False,T
+"""Bush tax cuts greater than health care? Probably.""",Mostly True,T

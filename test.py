@@ -1,11 +1,22 @@
+import KnowledgeManagement
 import csv
+from python_sdk_master.WINSTON.Alchemy_Class import WATSON
 
-csvfileRead = open('statements.csv')
-csvfileWrite = open('cleanedstatements.csv', 'w+')
-csvWriter = csv.writer(csvfileWrite)
-csvReader = csv.reader(csvfileRead)
-
+csvfile = open('economic_statements.csv', 'ra+')
+csvReader = csv.reader(csvfile, delimiter=',', quotechar='|')
+w = WATSON() 
 for row in csvReader:
-	sentence = row[0]
-	print sentence
-	csvWriter.writerow([sentence])
+	print row
+	data = row[0].strip().split(',')[0]
+	print data
+	truth = row[1].strip().split(',')
+	print truth
+	if("True" in truth):
+		keywords = w.getKeywordsStatement(data, len(data)/2)
+		numbers = w.getNumbersStatement(data)
+		add = ''
+		for words in keywords:
+			add = add +' '+ words
+		for number in numbers:
+			add = add  + ' ' + number
+		KnowledgeManagement.addInfo(add)

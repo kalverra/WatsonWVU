@@ -7,6 +7,7 @@ NLTK
  > brown  
  > punkt  
  > wordnet  
+ 
 pip install wolframalpha  
 pip install pandas  
 pip install -U scikit-learn  

@@ -62,16 +62,5 @@ class SVM:
 		print(vocab)
 
 
-#Create an instantiation of the classifier like so:
-clf = SVM("cleanedTrainingStatements.csv", 1000)
-#call to the functions like so: 
-clf.printVocab()
-
-#Testing
-test = pd.read_csv("testingStatements.csv")
-
-#for statement in test["Statement"]:
-#	print(clf.classifyStatement(statement))
-
 
 

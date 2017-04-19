@@ -4,6 +4,8 @@ from __future__ import division
 import nltk
 from nltk.corpus import wordnet as wn
 from nltk.corpus import brown
+from nltk.tokenize import word_tokenize
+
 import math
 import numpy as np
 import sys
@@ -223,7 +225,7 @@ def word_order_similarity(sentence_1, sentence_2):
     """
     words_1 = nltk.word_tokenize(sentence_1)
     words_2 = nltk.word_tokenize(sentence_2)
-    joint_words = list(set(words_1).u+nion(set(words_2)))
+    joint_words = list(set(words_1).union(set(words_2)))
     windex = {x[1]: x[0] for x in enumerate(joint_words)}
     r1 = word_order_vector(words_1, joint_words, windex)
     r2 = word_order_vector(words_2, joint_words, windex)

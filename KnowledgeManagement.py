@@ -1,36 +1,29 @@
 import csv
 import hashlib
 import StatementComparitor
+import nltk
 
-def addInfo(dataString, dataTruth):
+def addInfo(dataString):
 	csvfile = open('knowledgeBase.csv', 'a+')
 	csvWriter = csv.writer(csvfile, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
 	if(not containsInfo(dataString)):
-		csvWriter.writerow([dataString, dataTruth])
+		csvWriter.writerow([dataString])
 		return True
 	return False
 
 def readInfo(dataString):
 	csvfile = open('knowledgeBase.csv', 'r+')
 	csvReader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-	hashVal = hashlib.md5(dataString.encode())
-	val = hashVal.hexdigest()
 	for row in csvReader:
-		tableVal = row[0].strip().split(',')[0]
-		truthVal = row[0].strip().split(',')[1]
-		if(tableVal == val):
-			if(truthVal == 'True'):
-				return True
-			else:
-				return False
+		tableVal = row[0]
+		if(tableVal == dataString or StatementComparitor.similarity(tableVal, dataString) > 0.80):
+			return True
 
 def containsInfo(dataString):
 	csvfile = open('knowledgeBase.csv', 'r+')
-	csvReader = csv.reader(csvfile, delimiter=' ', quotechar='|')
-	hashVal = hashlib.md5(dataString.encode())
-	val = hashVal.hexdigest()
+	csvReader = csv.reader(csvfile, delimiter='\n', quotechar='|')
 	for row in csvReader:
-		tableVal = row[0].strip().split(',')[0]
-		if(tableVal == val or StatementComparitor.similarity(tableVal, val, True) > 0.75 or StatementComparitor.similarity(tableVal, val, False)):
+		tableVal = row[0]
+		if(tableVal == dataString or StatementComparitor.similarity(tableVal, dataString) > 0.80):
 			return True
 	return False

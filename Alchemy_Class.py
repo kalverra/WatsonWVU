@@ -115,7 +115,7 @@ w = WATSON()
 
 #You can call and get the info you want like so:
 
-print(w.getNumbersStatement("2,675,435  4.2 6 billion 17.72 trillion 600 thousand"))
+#print(w.getNumbersStatement("2,675,435  4.2 6 billion 17.72 trillion 600 thousand"))
 #print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005 http://imgur.com/2005"))
 #print(w.compareNumStrings("27%", "30%"))
 

@@ -40,8 +40,7 @@ class WATSON:
 		j = json.dumps(self.alchemy_language.keywords(max_items=num, url=website, language='english'), indent=2)
 		data = json.loads(j)
 		for row in data['keywords']:
-			keywords.append(removeURLs(row['text'])
-		
+			keywords.append(removeURLs(row['text']))
 		return keywords
 
 	#Takes in the string of a url and integer num, and returns a list of num tuples. 
@@ -52,7 +51,6 @@ class WATSON:
 		data = json.loads(j)
 		for row in data['keywords']:
 			keywords.append((row['text'], row['relevance']))
-		
 		return keywords
 
 	#Takes in the string of a url, and returns a string containing 'relatively' clean text
@@ -66,7 +64,8 @@ class WATSON:
 	#Takes in a string and returns a list of all numerical figures including percentages and currency
 	def getNumbersStatement(self, string):
 		string = self.removeURLs(string)
-		return re.findall("[$]*[\s]*[\d]+[\d,.]*[\s%]*", string)
+		numbers =  re.findall("[\d]+[\d,.]*[\\bhundred\\b|\\bthousand\\b|\\bhundred thousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b)]*[\s]*?", string.lower())
+		return numbers
 
 	#Takes in a string and returns a list of all the dates present
 	#Formats included: 4/4/2006 - October 26th, 1997 - 04/1996 - 2005 
@@ -96,8 +95,10 @@ w = WATSON()
 
 #You can call and get the info you want like so:
 
+#print(w.getNumbersStatement("2,675,435  4.2 6 billion 7.2 trillion $600 thousand 4 hundred thousand"))
 #print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005 http://imgur.com/2005"))
 #print(w.compareNumStrings("27%", "30%"))
+
 
 
 

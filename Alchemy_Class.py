@@ -71,8 +71,8 @@ class WATSON:
 	#Formats included: 4/4/2006 - October 26th, 1997 - 04/1996 - 2005 
 	def getDatesStatement(self, string):
 		string = self.removeURLs(string)
-		dates = re.findall("[\d\/]*\d{4}", string)
-		for date in re.findall("[\\bjanuary\\b|\\bfebruary\\b|\\bmarch\\b|\\barpil\\b|\\bmay\\b|\\bjune\\b|\\bjuly\\b|\\baugust\\b|\\bseptember\\b|\\boctober\\b|\\bnovember\\b|\\bdecember\\b)]{1}.*?\d{4}", string.lower()):
+		dates = re.findall("[\d\/]*\d{4}[\s]+", string)
+		for date in re.findall("[\\bjanuary\\b|\\bfebruary\\b|\\bmarch\\b|\\barpil\\b|\\bmay\\b|\\bjune\\b|\\bjuly\\b|\\baugust\\b|\\bseptember\\b|\\boctober\\b|\\bnovember\\b|\\bdecember\\b)]{1}.*?\d{4}[\s]+", string.lower()):
 			dates.append(date)
 		return dates
 

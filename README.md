@@ -13,5 +13,5 @@ pip install wolframalpha
 pip install pandas  
 pip install -U scikit-learn  
 pip install --upgrade watson-developer-cloud  
-pip install --upgrade google-api-python-client
-
+pip install --upgrade google-api-python-client  
+Beautiful Soup

@@ -82,6 +82,7 @@ class WATSON:
 		else:
 			return((num1/num2) >= .90)
 
+
 #instantiate an instance of WATSON like so:
 w = WATSON()
 

@@ -3,7 +3,8 @@ import time
 import SVM
 import re
 import KnowledgeManagement
-#import KnowledgeBase
+import KnowledgeBase
+import WebSearch
 from python_sdk_master.WINSTON.Alchemy_Class import WATSON
 
 if '__main__' == __name__:
@@ -46,13 +47,27 @@ if '__main__' == __name__:
 			for number in numbers:
 				add = add  + ' ' + number
 			isCorrect = False
+			conclusive = False
+			#Check the knowledge base for the keywords with the numbers
 			if(KnowledgeManagement.readInfo(add)):
 				isCorrect = True
-			#else:
-				#KnowledgeBase.baseSearch(add)	
-				#if():
-				#
-				#else:
+			else:
+				#Search wolfram alpha for the keywords and number
+				wolf = KnowledgeBase.baseSearch(add)
+				if(type(wolf) == str):
+					wolfSearchWords = wat.getKeywordsStatement(wolf, 5)
+					wolfSearchNums = wat.getNumbersStatement(wolf)
+					keyWolfSearch = ''
+					for word in wolfSearchWords:
+						keyWolfSearch = keyWolfSearch + ' ' + word
+					for num in wolfSearchNums:
+						keyWolfSearch = keyWolfSearch + ' ' + num	
+					if(StatementComparitor.similarity(keyWolfSearch, wolf) > 0.8 and wat.compareNumStrings(keyWolfSearch,wolf)):
+						isCorrect = True
+				else:
+					#Search Google for the result
+					#if(WebSearch.webSearch(add)):
+					#	isCorrect = True
 			statusId = tool.get_status_id(status)
 			print statusText
 			if(isCorrect and author.id != tool.get_me().id):
@@ -63,6 +78,7 @@ if '__main__' == __name__:
 				authorScreenName = [tool.get_user_screenName(author)]
 				print authorScreenName
 				tool.reply_to_tweet(statusId, "This economic statement is not truthful.", authorScreenName)
+				
 	#Twitter rate limit is 15 requests in 15 minutes or 180 requests in 15 minutes. I was breaking it at 15 second intervals.
 	time.sleep(60)
 	prevStatus = statusText

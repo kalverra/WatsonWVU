@@ -2,6 +2,7 @@ import csv
 import hashlib
 import StatementComparitor
 import nltk
+from python_sdk_master.WINSTON.Alchemy_Class import WATSON
 
 def addInfo(dataString):
 	csvfile = open('knowledgeBase.csv', 'a+')
@@ -12,11 +13,12 @@ def addInfo(dataString):
 	return False
 
 def readInfo(dataString):
+	wat = WATSON()
 	csvfile = open('knowledgeBase.csv', 'r+')
 	csvReader = csv.reader(csvfile, delimiter=' ', quotechar='|')
 	for row in csvReader:
 		tableVal = row[0]
-		if(tableVal == dataString or StatementComparitor.similarity(tableVal, dataString) > 0.80):
+		if((tableVal == dataString or StatementComparitor.similarity(tableVal, dataString) > 0.80) and wat.compareNumStrings(tableVal,dataString)):
 			return True
 	return False
 

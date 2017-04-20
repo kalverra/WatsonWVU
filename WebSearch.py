@@ -47,7 +47,7 @@ def webSearch(statement):
 					
 	for sentence in sentences:
 		value = StatementComparitor.similarity(sentence, statement)
-		if (value > 0.8):
+		if (value > 0.8 and watson.compareNumStrings(sentence, statement)):
 			return True # we "confirmed" the fact
 	return False
 

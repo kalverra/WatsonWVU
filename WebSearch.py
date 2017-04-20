@@ -6,12 +6,20 @@ from googleapiclient.discovery import build
 #import urllib2
 #import re
 #import json
-#google seach API key: AIzaSyDIwiJp6e4KTXbU_qA9ZDnvBckCEBMTDlo
+#google seach API keys:
+
+#AIzaSyDIwiJp6e4KTXbU_qA9ZDnvBckCEBMTDlo
+#AIzaSyAWQyVL1WzCLrYR7mkNSWcggNcSLfRjxVU
+#AIzaSyBzReN1V9viA05Sqqo25KIrNl5oFfuQIsQ
+#AIzaSyCmSI1Gd94Vy7j0oc_VDyLbEYkMnqZt9M0
+
+
 
 def main():
 	watson = WATSON()
-	pprint.pprint(watson.getKeywordsStatement("Donald Trump says he learned Obama tapped his phones from the New York Times", 10))
-
+#	pprint.pprint(watson.getKeywordsStatement("Donald Trump says he learned Obama tapped his phones from the New York Times", 10))
+#	webSearch("Donald Trump New York Times Obama phones")
+	
 def webSearch(statement):
 	watson = WATSON()
 	numOfResults = 3
@@ -55,13 +63,6 @@ def webSearch(statement):
 	return False
 
 
-	'''		while(len(keywords)>1):
-			firstCheck = keywords.pop()
-			for secondCheck in keywords:
-				for sentence in txt.split('.'):
-					if secondCheck in sentence and firstCheck in sentence:
-						sentences.append(sentence)# adds a sentence to this list if it contains at least 2 or the keywords'''
-	
 	
 
 

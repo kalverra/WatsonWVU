@@ -64,7 +64,7 @@ class WATSON:
 	#Takes in a string and returns a list of all numerical figures including percentages and currency
 	def getNumbersStatement(self, string):
 		string = self.removeURLs(string)
-		numbers =  re.findall("[\d]+[\d,.]*[\\bhundred\\b|\\bthousand\\b|\\bhundred thousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b)]*[\s]*?", string.lower())
+		numbers =  re.findall("[\d]+[\d,.]*[\\bhundred\\b|\\bthousand\\b|\\bhundred thousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b)]*?", string.lower())
 		return numbers
 
 	#Takes in a string and returns a list of all the dates present

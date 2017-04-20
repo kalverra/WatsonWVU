@@ -5,6 +5,7 @@ import re
 import KnowledgeManagement
 import KnowledgeBase
 import WebSearch
+import StatementComparitor
 from Alchemy_Class import WATSON
 
 if '__main__' == __name__:
@@ -53,6 +54,7 @@ if '__main__' == __name__:
 			for number in numbers:
 				if(number not in dates and number not in addKeys):	
 					addNums = addNums + ' ' + number
+			print "Just the keywords: " + addKeys
 			isCorrect = False
 			conclusive = False
 			#Check the knowledge base for the keywords with the numbers
@@ -62,13 +64,18 @@ if '__main__' == __name__:
 				isCorrect = True
 			else:
 				#Search wolfram alpha for the keywords and number
+				print addKeys + addDates
 				wolf = KnowledgeBase.baseSearch(addKeys + addDates)
 				print "Wolfram return type: " + str(type(wolf))
 				if(isinstance(wolf, unicode)):
 					wolf = wolf.encode('ascii', 'ignore')
-					wolfKeys = wat.getKeywordsStatement(wolf, 5)
+					print "Wolfram return: " + wolf
+					wolfKeys = wat.getKeywordsStatement(wolf, len(wolf))
 					wolfDates = wat.getDatesStatement(wolf)
 					wolfNums = wat.getNumbersStatement(wolf)
+					print 'Result keywords: ' + str(wolfKeys)
+					print 'Result Dates: ' + str(wolfDates)
+					print ' Result Nums: ' + str(wolfNums)
 					wolfState = ''
 					for word in wolfKeys:
 						wolfState = wolfState + ' ' + word
@@ -76,15 +83,18 @@ if '__main__' == __name__:
 						if(date not in wolfKeys):
 							wolfState = wolfState + ' ' + date
 					for nums in wolfNums:
-						if(num not in wolfKeys and num not in wolfDates):
-							wolfState = num + ' ' + wolfState	
-					print "Wolfram Result: " + keyWolfSearch
-					if(StatementComparitor.similarity(wolfState, addNums+' ' +addKeys+' '+addDates) > 0.8 and wat.compareNumStrings(addNums[0],wolfNums[0])):
+						if(nums not in wolfKeys and nums not in wolfDates):
+							wolfState = nums + ' ' + wolfState	
+					print "Wolfram Result: " + wolfState
+					if(wat.compareNumStrings(addNums,wolfNums[0])):
 						conclusive = True
 						isCorrect = True
+					else:
+						conclusive = True
+						isCorrect = False
 				#else:
 					#Search Google for the result
-					#if(WebSearch.webSearch(add)):
+					#if(WebSearch.webSearch(addNums + ' ' + addKeys + ' ' + addDates)):
 					#	conclusive = True
 					#	isCorrect = True
 			statusId = tool.get_status_id(status)

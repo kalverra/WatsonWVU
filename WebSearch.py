@@ -18,7 +18,7 @@ from googleapiclient.discovery import build
 def main():
 	watson = WATSON()
 #	pprint.pprint(watson.getKeywordsStatement("Donald Trump says he learned Obama tapped his phones from the New York Times", 10))
-#	webSearch("Donald Trump New York Times Obama phones")
+	print webSearch("Donald Trump New York Times Obama phones")
 	
 def webSearch(statement):
 	watson = WATSON()
@@ -30,37 +30,41 @@ def webSearch(statement):
 	service = build("customsearch","v1",developerKey="AIzaSyDIwiJp6e4KTXbU_qA9ZDnvBckCEBMTDlo")
 
 	#q is the query, cx specifies the custom search, num is number of results
-	res = service.cse().list(q = query,cx="018123512344280340302:tqa4kiqukzs",num = numOfResults).execute()
-	links = []
-	count = 0
+	try:
+		res = service.cse().list(q = query,cx="018123512344280340302:tqa4kiqukzs",num = numOfResults).execute()
+		links = []
+		count = 0
 	
-	if 'items' not in res:
+		if 'items' not in res:
+			return False
+
+		#parse the json for the desired links in the google search results
+		while count < numOfResults:
+			links.append(res["items"][count]["link"])
+			count+=1
+		count = 0
+		pprint.pprint(links)
+
+		for link in links:
+			txt = watson.getCleanTextURL(link)
+	#		print(txt.encode('utf-8').strip())
+			keywords = statement.split(" ")
+			while(len(keywords)>1):
+				firstCheck = keywords.pop()
+				for sentence in txt.split('.'):
+					for secondCheck in keywords:
+						if secondCheck in sentence and firstCheck in sentence:
+							sentences.append(sentence)# adds a sentence to this list if it contains at least 2 or the keywords'''
+					
+		statement = statement.encode("ascii", "ignore")			
+		for sentence in sentences:
+			sentence = sentence.encode("ascii", "ignore")
+			value = StatementComparitor.similarity(sentence, statement)
+			if (value > 0.8 and watson.compareNumStrings(sentence, statement)):
+				return True # we "confirmed" the fact
 		return False
-
-	#parse the json for the desired links in the google search results
-	while count < numOfResults:
-		links.append(res["items"][count]["link"])
-		count+=1
-	count = 0
-	pprint.pprint(links)
-
-	for link in links:
-		txt = watson.getCleanTextURL(link)
-#		print(txt.encode('utf-8').strip())
-		keywords = statement.split(" ")
-		while(len(keywords)>1):
-			firstCheck = keywords.pop()
-			for sentence in txt.split('.'):
-				for secondCheck in keywords:
-					if secondCheck in sentence and firstCheck in sentence:
-						sentences.append(sentence)# adds a sentence to this list if it contains at least 2 or the keywords'''
-					
-					
-	for sentence in sentences:
-		value = StatementComparitor.similarity(sentence, statement)
-		if (value > 0.8 and watson.compareNumStrings(sentence, statement)):
-			return True # we "confirmed" the fact
-	return False
+	except:
+		pass
 
 
 	

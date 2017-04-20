@@ -28,4 +28,4 @@ def baseSearch(searchTerms):
         pass
 
 #terms = raw_input("Enter your search terms: ")
-#print(baseSearch(terms))
+print(baseSearch(" America GDP"))

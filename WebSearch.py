@@ -1,4 +1,6 @@
 import pprint
+from python_sdk_master.WINSTON.Alchemy_Class import WATSON
+import StatementComparitor
 from bs4 import BeautifulSoup
 from googleapiclient.discovery import build
 #import urllib2
@@ -7,57 +9,58 @@ from googleapiclient.discovery import build
 #google seach API key: AIzaSyDIwiJp6e4KTXbU_qA9ZDnvBckCEBMTDlo
 
 def main():
-	webSearch("Donald Trump")
+	watson = WATSON()
+	pprint.pprint(watson.getKeywordsStatement("Donald Trump says he learned Obama tapped his phones from the New York Times", 10))
+	webSearch("Donald Trump New York Times Obama phones")
 
-def webSearch(keyWordString):
-	numOfResults = 10
-	query = keyWordString
+def webSearch(statement):
+	watson = WATSON()
+	numOfResults = 3
+	sentences = []
 
-	query = query.replace (" ", "+")
+	query = statement.replace (" ", "+")
 
 	service = build("customsearch","v1",developerKey="AIzaSyDIwiJp6e4KTXbU_qA9ZDnvBckCEBMTDlo")
 
 	#q is the query, cx specifies the custom search, num is number of results
-	#res = service.cse().list(q = query,cx="018123512344280340302:tqa4kiqukzs",num = numOfResults).execute()
+	res = service.cse().list(q = query,cx="018123512344280340302:tqa4kiqukzs",num = numOfResults).execute()
 	links = []
 	count = 0
-	#parse the josn for the desired links in the goggle search results
+	#parse the json for the desired links in the google search results
 	while count < numOfResults:
-#		links.append(res["items"][count]["link"])
+		links.append(res["items"][count]["link"])
 		count+=1
 	count = 0
 	pprint.pprint(links)
-	
-	
-	sentences = []
-	keywords = []
-	keywords.append("Donald")
-	keywords.append("Trump")
-	keywords.append("taxes")
-	
-	txt = "Donald is lame. he is not a good guy. I  dont like Donald Trump. Trump knows taxes. The Donald won't release his taxes. Donald Trump has paid many taxes"	#send link to watson to return String body of text.
-	
-	while count < 1 :
+
+	for link in links:
+		txt = watson.getCleanTextURL(link)
+#		print(txt.encode('utf-8').strip())
+		keywords = statement.split(" ")
 		while(len(keywords)>1):
+			firstCheck = keywords.pop()
+			for sentence in txt.split('.'):
+				for secondCheck in keywords:
+					if secondCheck in sentence and firstCheck in sentence:
+						sentences.append(sentence)# adds a sentence to this list if it contains at least 2 or the keywords'''
+					
+					
+	for sentence in sentences:
+		value = StatementComparitor.similarity(sentence, statement)
+		if (value > 0.8):
+			return True # we "confirmed" the fact
+	return False
+
+
+	'''		while(len(keywords)>1):
 			firstCheck = keywords.pop()
 			for secondCheck in keywords:
 				for sentence in txt.split('.'):
 					if secondCheck in sentence and firstCheck in sentence:
-						sentences.append(sentence)# adds a sentence to this list if it contains ataleast 2 or the keywords
+						sentences.append(sentence)# adds a sentence to this list if it contains at least 2 or the keywords'''
 	
-				count+=1
-			
+	
 
-#	for sentence in sentences:
-		#get keywords from watson
-		#compare the keywords of each sentance to the keywords of the fact we're checking
-		
-		
-	pprint.pprint(list(set(sentences)))
-	
-	
-	
-	
 
 #This is some code we probably can't really use, but it 
 #checks each link for an exact matching string within the page
@@ -76,4 +79,4 @@ for link in links:
 
 
 if '__main__' == __name__:
-	webSearch("Donald Trump")
+	main()

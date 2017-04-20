@@ -11,7 +11,6 @@ from googleapiclient.discovery import build
 def main():
 	watson = WATSON()
 	pprint.pprint(watson.getKeywordsStatement("Donald Trump says he learned Obama tapped his phones from the New York Times", 10))
-	webSearch("Donald Trump New York Times Obama phones")
 
 def webSearch(statement):
 	watson = WATSON()
@@ -26,6 +25,10 @@ def webSearch(statement):
 	res = service.cse().list(q = query,cx="018123512344280340302:tqa4kiqukzs",num = numOfResults).execute()
 	links = []
 	count = 0
+	
+	if 'items' not in res:
+		return False
+
 	#parse the json for the desired links in the google search results
 	while count < numOfResults:
 		links.append(res["items"][count]["link"])

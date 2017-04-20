@@ -8,17 +8,24 @@ def baseSearch(searchTerms):
 
     res = client.query(searchTerms)
     
-    #Prints the entire 'answer' string returned by WolframAlpha 
-    #print(next(res.results).text)
+    try:
+        #Queries are broken down into pods, which contain different types of information
+        for pod in res.pods:
+            #Locates the first pod with 'result' in the tile - this is necessary as pod titles can vary slightly
+            if "Result" in pod.title or "result" in pod.title:
+                #Parses the first statement in the list, dividing it up into the answer and the individual background tokens in parenthesis
+                ansFormat = r"\(?[^()]+\)?"
 
-    #Parses the first statement in the list, dividing it up into the answer and the individual background tokens in parenthesis
-    ansFormat = r"\(?[^()]+\)?"
+                #re.search only returns the first match found, starting from the beginning of the string - re.match is used for finding multiple matches
+                processed = re.search(ansFormat, pod.text)
 
-    #re.search only returns the first match found, starting from the beginning of the string - re.match is needed for finding multiple matches
-    processed = re.search(ansFormat, next(res.results).text)
+                #Returns the result parsed from the regular expression
+                return(str(processed.group(0)))
+                #return pod.text
+    #Attribute errors arise when queries Wolfram Alpha can't understand are entered - move onto a different method
+    except AttributeError:
+        print("Nonapplicable terms")
+        pass
 
-    #Returns the result parsed from the regular expression
-    #print(processed.group(0))
-    return(str(processed.group(0)))
-
-print(baseSearch("trump taxes economy"))
+#terms = raw_input("Enter your search terms: ")
+#print(baseSearch(terms))

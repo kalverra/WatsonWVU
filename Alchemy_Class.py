@@ -64,8 +64,11 @@ class WATSON:
 	#Takes in a string and returns a list of all numerical figures including percentages and currency
 	def getNumbersStatement(self, string):
 		string = self.removeURLs(string)
-		numbers =  re.findall("[\d]+[\d,.]*[\\bhundred\\b|\\bthousand\\b|\\bhundred thousand\\b|\\bmillion\\b|\\bbillion\\b|\\btrillion\\b)]*?", string.lower())
-		return numbers
+		numbers =  re.findall("[\d]+[\d,.]*[\\bhundred\\b | \\bthousand\\b | \\bmillion\\b | \\bbillion\\b | \\btrillion\\b]*", string.lower())
+		actual_numbers = []
+		for num in numbers:
+			actual_numbers.append(self.convertNums(num))
+		return actual_numbers
 
 	#Takes in a string and returns a list of all the dates present
 	#Formats included: 4/4/2006 - October 26th, 1997 - 04/1996 - 2005 
@@ -73,29 +76,46 @@ class WATSON:
 		string = self.removeURLs(string)
 		dates = re.findall("[\d\/]*\d{4}[\s]+", string)
 		for date in re.findall("[\\bjanuary\\b|\\bfebruary\\b|\\bmarch\\b|\\barpil\\b|\\bmay\\b|\\bjune\\b|\\bjuly\\b|\\baugust\\b|\\bseptember\\b|\\boctober\\b|\\bnovember\\b|\\bdecember\\b)]{1}.*?\d{4}[\s]+", string.lower()):
-			dates.append(date)
+			dates.append(date.strip())
 		return dates
 
 	#Takes in 2 strings with integer values, removes symbols and converts them to ints, and returns whether they are within 10% of eachother
-	def compareNumStrings(self, string1, string2):
-		num1 = int(re.sub("[^\d]", "", string1))
-		num2 = int(re.sub("[^\d]", "", string2))
-		if num1 > num2:
-			return((num2/num1) >= .90)
+	def compareNumStrings(self, float1, float2):
+		if float1 > float2:
+			return((float2/float1) >= .90)
 		else:
-			return((num1/num2) >= .90)
+			return((float1/float2) >= .90)
 
 	#Takes in a string and returns a string with all URLs removed
 	def removeURLs(self, string):
 		return re.sub(r"http\S+", "", string)
-		
+	
+	#Takes in a spelled out version of a number in the format 6.2 million and returns the float/integer equivalent	
+	def convertNums(self, string):
+		if "hundred" in string:
+			num  = float(re.sub("[^\d.]", "", string))
+			return num * 100
+		elif "thousand" in string:
+			num  = float(re.sub("[^\d.]", "", string))
+			return num * 1000
+		elif "million" in string:
+			num  = float(re.sub("[^\d.]", "", string))
+			return num * 1000000
+		elif "billion" in string:
+			num  = float(re.sub("[^\d.]", "", string))
+			return num * 1000000000
+		elif "trillion" in string:
+			num  = float(re.sub("[^\d.]", "", string))
+			return num * 1000000000000
+		else:
+			return float(re.sub("[^\d.]", "", string))
 
 #instantiate an instance of WATSON like so:
 w = WATSON()
 
 #You can call and get the info you want like so:
 
-#print(w.getNumbersStatement("2,675,435  4.2 6 billion 7.2 trillion $600 thousand 4 hundred thousand"))
+print(w.getNumbersStatement("2,675,435  4.2 6 billion 17.72 trillion 600 thousand"))
 #print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005 http://imgur.com/2005"))
 #print(w.compareNumStrings("27%", "30%"))
 

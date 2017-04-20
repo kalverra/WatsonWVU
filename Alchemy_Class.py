@@ -40,8 +40,7 @@ class WATSON:
 		j = json.dumps(self.alchemy_language.keywords(max_items=num, url=website, language='english'), indent=2)
 		data = json.loads(j)
 		for row in data['keywords']:
-			keywords.append(removeURLs(row['text'])
-		
+			keywords.append(removeURLs(row['text']))
 		return keywords
 
 	#Takes in the string of a url and integer num, and returns a list of num tuples. 

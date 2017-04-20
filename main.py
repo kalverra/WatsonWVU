@@ -5,7 +5,7 @@ import re
 import KnowledgeManagement
 import KnowledgeBase
 import WebSearch
-from python_sdk_master.WINSTON.Alchemy_Class import WATSON
+from Alchemy_Class import WATSON
 
 if '__main__' == __name__:
     #Instantiate important abjects
@@ -36,37 +36,56 @@ if '__main__' == __name__:
 	statusText = tool.get_status_text(status)
 	if(statusText != prevStatus):
 		#Start analyzing the new status
-		statusText = re.sub('\@[^\s]+','', statusText).strip()
+		statusText = re.sub('\@[^\s]+','', statusText).strip().encode("ascii", "ignore") 
 		if(svm.classifyStatement(statusText) == 1):
 			#Get the keywords and numbers from the text
 			keywords = wat.getKeywordsStatement(statusText, len(statusText)/2)
 			numbers = wat.getNumbersStatement(statusText)
-			add = ''
+			dates = wat.getDatesStatement(statusText)
+			addKeys = ''
+			addDates = ''
+			addNums = ''
 			for words in keywords:
-				add = add +' '+ words
+				addKeys = addKeys +' '+ words
+			for date in dates: 
+				if(date not in addKeys):
+					addDates = addDates + ' ' + date
 			for number in numbers:
-				add = add  + ' ' + number
+				if(number not in dates and number not in addKeys):	
+					addNums = addNums + ' ' + number
 			isCorrect = False
 			conclusive = False
 			#Check the knowledge base for the keywords with the numbers
-			if(KnowledgeManagement.readInfo(add)):
+			print addNums + ' ' + addKeys + ' ' + addDates
+			if(KnowledgeManagement.readInfo(addNums + ' ' +  addKeys + ' ' + addDates)):
+				conclusive = True
 				isCorrect = True
 			else:
 				#Search wolfram alpha for the keywords and number
-				wolf = KnowledgeBase.baseSearch(add)
-				if(type(wolf) == str):
-					wolfSearchWords = wat.getKeywordsStatement(wolf, 5)
-					wolfSearchNums = wat.getNumbersStatement(wolf)
-					keyWolfSearch = ''
-					for word in wolfSearchWords:
-						keyWolfSearch = keyWolfSearch + ' ' + word
-					for num in wolfSearchNums:
-						keyWolfSearch = keyWolfSearch + ' ' + num	
-					if(StatementComparitor.similarity(keyWolfSearch, wolf) > 0.8 and wat.compareNumStrings(keyWolfSearch,wolf)):
+				wolf = KnowledgeBase.baseSearch(addKeys + addDates)
+				print "Wolfram return type: " + str(type(wolf))
+				if(isinstance(wolf, unicode)):
+					wolf = wolf.encode('ascii', 'ignore')
+					wolfKeys = wat.getKeywordsStatement(wolf, 5)
+					wolfDates = wat.getDatesStatement(wolf)
+					wolfNums = wat.getNumbersStatement(wolf)
+					wolfState = ''
+					for word in wolfKeys:
+						wolfState = wolfState + ' ' + word
+					for date in wolfDates: 
+						if(date not in wolfKeys):
+							wolfState = wolfState + ' ' + date
+					for nums in wolfNums:
+						if(num not in wolfKeys and num not in wolfDates):
+							wolfState = num + ' ' + wolfState	
+					print "Wolfram Result: " + keyWolfSearch
+					if(StatementComparitor.similarity(wolfState, addNums+' ' +addKeys+' '+addDates) > 0.8 and wat.compareNumStrings(addNums[0],wolfNums[0])):
+						conclusive = True
 						isCorrect = True
-				else:
+				#else:
 					#Search Google for the result
 					#if(WebSearch.webSearch(add)):
+					#	conclusive = True
 					#	isCorrect = True
 			statusId = tool.get_status_id(status)
 			print statusText
@@ -74,7 +93,8 @@ if '__main__' == __name__:
 				authorScreenName = [tool.get_user_screenName(author)]
 				print authorScreenName
 				tool.reply_to_tweet(statusId, "This economic statement is truthful.", authorScreenName)
-			elif(not isCorrect and author.id != tool.get_me().id):
+				KnowledgeManagement.addInfo(add)
+			elif(not isCorrect and conclusive and author.id != tool.get_me().id):
 				authorScreenName = [tool.get_user_screenName(author)]
 				print authorScreenName
 				tool.reply_to_tweet(statusId, "This economic statement is not truthful.", authorScreenName)
@@ -82,24 +102,3 @@ if '__main__' == __name__:
 	#Twitter rate limit is 15 requests in 15 minutes or 180 requests in 15 minutes. I was breaking it at 15 second intervals.
 	time.sleep(60)
 	prevStatus = statusText
-"""
-		
-    authorList = tool.get_status_author(statuses)
-    userRetweetList = tool.get_highest_retweet_status(20)
-    for status in userRetweetList['statuses']:
-	print userRetweetList['retweets']
-    '''
-    for status in statuses:
-	print tool.get_readable_date(tool.get_status_datetime(status)) + "\n"
-    tool.get_readable_date(tool.get_status_date(status)) + " " + 
-    for auth in authorList:
-	print "Screen Name: " + tool.get_user_screenName(auth)
-	print "\nName: " + tool.get_user_name(auth) + " \n" 
-    for text in statusText:
-	print text + "\n"
-    '''
-    #Sprint "Enter a new status to post!"
-    #newStatus = raw_input("Status: ")
-    #tool.post_status(newStatus)
-"""
-    

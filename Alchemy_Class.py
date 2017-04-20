@@ -63,11 +63,13 @@ class WATSON:
 
 	#Takes in a string and returns a list of all numerical figures including percentages and currency
 	def getNumbersStatement(self, string):
+		string = self.removeURLs(string)
 		return re.findall("[$]*[\s]*[\d]+[\d,.]*[\s%]*", string)
 
 	#Takes in a string and returns a list of all the dates present
 	#Formats included: 4/4/2006 - October 26th, 1997 - 04/1996 - 2005 
 	def getDatesStatement(self, string):
+		string = self.removeURLs(string)
 		dates = re.findall("[\d\/]*\d{4}", string)
 		for date in re.findall("[\\bjanuary\\b|\\bfebruary\\b|\\bmarch\\b|\\barpil\\b|\\bmay\\b|\\bjune\\b|\\bjuly\\b|\\baugust\\b|\\bseptember\\b|\\boctober\\b|\\bnovember\\b|\\bdecember\\b)]{1}.*?\d{4}", string.lower()):
 			dates.append(date)
@@ -82,14 +84,17 @@ class WATSON:
 		else:
 			return((num1/num2) >= .90)
 
+	def removeURLs(self, string):
+		return re.sub(r"http\S+", "", string)
+		
 
 #instantiate an instance of WATSON like so:
 w = WATSON()
 
 #You can call and get the info you want like so:
 
-#print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005"))
-print(w.compareNumStrings("27%", "30%"))
+print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005 http://imgur.com/2005"))
+#print(w.compareNumStrings("27%", "30%"))
 
 
 

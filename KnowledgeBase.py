@@ -20,7 +20,7 @@ def baseSearch(searchTerms):
                 processed = re.search(ansFormat, pod.text)
 
                 #Returns the result parsed from the regular expression
-                return(str(processed.group(0)))
+                return(processed.group(0))
                 #return pod.text
     #Attribute errors arise when queries Wolfram Alpha can't understand are entered - move onto a different method
     except AttributeError:

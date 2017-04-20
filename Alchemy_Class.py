@@ -14,6 +14,7 @@ class WATSON:
 	#Takes in the string of a statement and integer num, and returns a list of num keywords
 	def getKeywordsStatement(self, string, num):
 		keywords = []
+		string = self.removeURLs(string)
 		j = json.dumps(self.alchemy_language.keywords(max_items=num, text=string, language='english'), indent=2)
 		data = json.loads(j)
 		for row in data['keywords']:
@@ -25,6 +26,7 @@ class WATSON:
 	#Each tuple consists of: (keyword : relevance score)
 	def getKeywordsRelevanceStatement(self, string, num):
 		keywords = []
+		string = self.removeURLs(string)
 		j = json.dumps(self.alchemy_language.keywords(max_items=num, text=string, language='english'), indent=2)
 		data = json.loads(j)
 		for row in data['keywords']:
@@ -38,7 +40,7 @@ class WATSON:
 		j = json.dumps(self.alchemy_language.keywords(max_items=num, url=website, language='english'), indent=2)
 		data = json.loads(j)
 		for row in data['keywords']:
-			keywords.append(row['text'])
+			keywords.append(removeURLs(row['text'])
 		
 		return keywords
 
@@ -84,6 +86,7 @@ class WATSON:
 		else:
 			return((num1/num2) >= .90)
 
+	#Takes in a string and returns a string with all URLs removed
 	def removeURLs(self, string):
 		return re.sub(r"http\S+", "", string)
 		
@@ -93,7 +96,7 @@ w = WATSON()
 
 #You can call and get the info you want like so:
 
-print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005 http://imgur.com/2005"))
+#print(w.getDatesStatement("4/4/2006, October 26th, 1997, 04/96, 2005 http://imgur.com/2005"))
 #print(w.compareNumStrings("27%", "30%"))
 
 

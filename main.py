@@ -52,7 +52,7 @@ if '__main__' == __name__:
 				if(date not in addKeys):
 					addDates = addDates + ' ' + date
 			for number in numbers:
-				if(number not in dates and number not in addKeys):	
+				if str(number) not in dates and str(number) not in addKeys:	
 					addNums = addNums + ' ' + number
 			print "Just the keywords: " + addKeys
 			isCorrect = False
@@ -92,11 +92,11 @@ if '__main__' == __name__:
 					else:
 						conclusive = True
 						isCorrect = False
-				#else:
+				else:
 					#Search Google for the result
-					#if(WebSearch.webSearch(addNums + ' ' + addKeys + ' ' + addDates)):
-					#	conclusive = True
-					#	isCorrect = True
+					if(WebSearch.webSearch(addNums + ' ' + addKeys + ' ' + addDates)):
+						conclusive = True
+						isCorrect = True
 			statusId = tool.get_status_id(status)
 			print statusText
 			if(isCorrect and author.id != tool.get_me().id):

@@ -103,7 +103,7 @@ if '__main__' == __name__:
 				authorScreenName = [tool.get_user_screenName(author)]
 				print authorScreenName
 				tool.reply_to_tweet(statusId, "This economic statement is truthful.", authorScreenName)
-				KnowledgeManagement.addInfo(add)
+				KnowledgeManagement.addInfo(addNums + ' ' + addKeys + ' ' addDates)
 			elif(not isCorrect and conclusive and author.id != tool.get_me().id):
 				authorScreenName = [tool.get_user_screenName(author)]
 				print authorScreenName

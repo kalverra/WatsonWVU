@@ -53,7 +53,7 @@ if '__main__' == __name__:
 					addDates = addDates + ' ' + date
 			for number in numbers:
 				if str(number) not in dates and str(number) not in addKeys:	
-					addNums = addNums + ' ' + number
+					addNums = addNums + ' ' + str(number)
 			print "Just the keywords: " + addKeys
 			isCorrect = False
 			conclusive = False
@@ -84,9 +84,9 @@ if '__main__' == __name__:
 							wolfState = wolfState + ' ' + date
 					for nums in wolfNums:
 						if(nums not in wolfKeys and nums not in wolfDates):
-							wolfState = nums + ' ' + wolfState	
+							wolfState = str(nums) + ' ' + wolfState
 					print "Wolfram Result: " + wolfState
-					if(wat.compareNumStrings(addNums,wolfNums[0])):
+					if(wat.compareNumStrings(float(addNums),float(wolfNums[0]))):
 						conclusive = True
 						isCorrect = True
 					else:
